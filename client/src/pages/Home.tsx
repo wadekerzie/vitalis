@@ -1,3 +1,4 @@
+import AIRoadmap from "@/components/AIRoadmap";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
@@ -52,18 +53,23 @@ export default function Home() {
               <Button 
                 size="lg" 
                 variant="secondary"
-                onClick={() => scrollToSection("executive-summary")}
+                onClick={() => {
+                  const roadmapElement = document.querySelector('[data-section="roadmap"]');
+                  if (roadmapElement) {
+                    roadmapElement.scrollIntoView({ behavior: "smooth", block: "start" });
+                  }
+                }}
                 className="font-semibold"
               >
-                Read Full Report <ArrowRight className="ml-2 h-5 w-5" />
+                View Deliverables <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button 
                 size="lg" 
                 variant="outline"
-                onClick={() => scrollToSection("ai-consulting")}
+                onClick={() => scrollToSection("executive-summary")}
                 className="font-semibold bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
               >
-                View AI Proposal
+                Read Full Report
               </Button>
             </div>
           </div>
@@ -92,6 +98,11 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* AI Roadmap Section */}
+      <div data-section="roadmap">
+        <AIRoadmap />
       </div>
 
       {/* Main Content with Sidebar Navigation */}
