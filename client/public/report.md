@@ -12,7 +12,7 @@ This report provides a comprehensive market viability analysis for a proposed da
 
 The Dallas market presents a compelling opportunity, characterized by a rapidly growing affluent senior population and a significant concentration of wealth. Our research indicates a robust and expanding market for longevity and wellness services, with over 72,400 millionaires residing in the Dallas area [8]. The competitive landscape includes established players like Fountain Life and Sanctum Med + Wellness, but significant gaps exist for a clinic that offers a comprehensive, data-driven, and relationship-focused approach that extends beyond diagnostics or a single gender focus.
 
-This report also outlines a proposal for a 30-day AI consulting engagement to be led by Wade Kerzie. Given Mr. Kerzie's exceptional **Applied AI Competency Index™ score of 98/100** and extensive experience in building and deploying production AI systems, we recommend a **flat-fee engagement of $45,000**. This engagement will deliver a comprehensive strategic framework, technical architecture, working prototypes, and implementation playbooks for the AI-powered automation of the clinic's operations and patient intake processes. The deliverables are designed to provide a clear roadmap for a subsequent execution phase, positioning the clinic for a successful launch and scalable growth.
+This report also outlines a proposal for a 30-day AI consulting engagement to be led by Wade Kerzie. Given Mr. Kerzie's exceptional **Applied AI Competency Index™ score of 98/100** and extensive experience in building and deploying production AI systems, we recommend a **flat-fee engagement of $45,000**. This engagement will deliver a comprehensive strategic framework, technical architecture, working prototypes, and implementation playbooks for the AI-powered automation of the clinic's operations and patient intake processes. The deliverables are designed to be complete, actionable, and ready to hand off to any execution team the clinic chooses to engage, whether internal or external.
 
 ---
 
@@ -139,7 +139,7 @@ The 30-day engagement is designed to produce a comprehensive strategic and techn
 | **1** | **Discovery & Requirements** | Stakeholder Interview Summary, Regulatory Compliance Framework, Patient Journey Map, Technology Stack Recommendation |
 | **2** | **AI Architecture Design** | Patient Intake Automation Architecture, Clinic Operations Automation Architecture, Optimization Scorecard Framework, System Integration Blueprint |
 | **3** | **Prototyping & Validation** | Patient Intake Prototype (Conversational AI), Clinic Operations Prototype (Dashboard Mockup), Wearable Integration PoC, AI Model Selection & Testing |
-| **4** | **Implementation & Handoff** | Implementation Playbooks, AI Governance Framework, Vendor Selection Guide, Execution Roadmap for Follow-On Engagement, Final Presentation |
+| **4** | **Implementation & Handoff** | Implementation Playbooks, AI Governance Framework, Vendor Selection Guide, Execution Roadmap, Final Presentation |
 
 This structured approach ensures that all critical aspects of the AI framework are addressed, from regulatory compliance and patient experience to technical architecture and implementation planning. The engagement will produce over 100 pages of detailed technical documentation, working prototypes to validate key concepts, and a clear, actionable roadmap for building and launching the clinic's AI-powered systems.
 
@@ -149,7 +149,7 @@ This structured approach ensures that all critical aspects of the AI framework a
 
 The proposed data-driven longevity and recovery clinic is a highly viable business concept with strong potential for success in the Dallas market. The combination of a rapidly growing affluent senior population, a clear gap in the competitive landscape, and a powerful differentiation strategy creates a compelling investment opportunity.
 
-We recommend moving forward with the 30-day AI consulting engagement with Wade Kerzie. His expertise is critical to laying the proper technical foundation for the clinic's ambitious vision. The proposed $45,000 flat fee represents a strategic investment that will yield a comprehensive, actionable blueprint for the clinic's AI infrastructure, significantly de-risking the execution phase and accelerating the path to market.
+We recommend moving forward with the 30-day AI consulting engagement with Wade Kerzie. His expertise is critical to laying the proper technical foundation for the clinic's ambitious vision. The proposed $45,000 flat fee represents a strategic investment that will yield a comprehensive, actionable blueprint for the clinic's AI infrastructure. All deliverables will be provided with full ownership rights, enabling the clinic to execute with their chosen development team, whether internal or external.
 
 By embracing a data-driven, AI-powered approach from the outset, Joann Grisaffi's clinic can establish itself as a leader in the next generation of personalized healthcare, delivering superior patient outcomes and building a scalable, high-growth business.
 

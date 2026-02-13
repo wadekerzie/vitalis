@@ -63,14 +63,14 @@ const milestones: Milestone[] = [
       { icon: FileText, label: "Cost Projections" },
       { icon: Zap, label: "ROI Analysis" },
     ],
-    impact: "Validate $150K+ execution investment",
+    impact: "Validate approach before full build",
     color: "from-purple-500 to-cyan-500",
     gradient: "bg-gradient-to-br from-purple-500/10 to-cyan-500/10",
   },
   {
     week: 4,
     phase: "Execution Ready",
-    outcome: "Your team has everything needed to build, deploy, and scale—no guesswork",
+    outcome: "Complete playbooks ready to hand off to your chosen execution team—no guesswork",
     deliverables: [
       { icon: BookOpen, label: "Implementation Playbooks" },
       { icon: Target, label: "Resource Plan" },
@@ -186,7 +186,7 @@ function MilestoneCard({ milestone, index }: { milestone: Milestone; index: numb
               <div className="mt-4 pt-4 border-t border-border">
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <CheckCircle2 className="h-4 w-4 text-secondary" />
-                  <span>Deliverables ready for execution team</span>
+                  <span>Ready to hand off to any execution team</span>
                 </div>
               </div>
             </motion.div>
@@ -330,8 +330,8 @@ export default function AIRoadmap() {
                   <span className="font-semibold text-secondary">3-5x</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground">Risk Mitigation</span>
-                  <span className="font-semibold text-foreground">Validate before $150K+ execution</span>
+                  <span className="text-muted-foreground">Deliverable Ownership</span>
+                  <span className="font-semibold text-foreground">Full rights to all playbooks</span>
                 </div>
               </div>
             </CardContent>
