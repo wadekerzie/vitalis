@@ -93,8 +93,8 @@ export default function Home() {
               <div className="text-sm text-muted-foreground font-medium">US Aesthetic Surgery Market</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-secondary mb-2">$45K</div>
-              <div className="text-sm text-muted-foreground font-medium">Recommended AI Consulting Fee</div>
+              <div className="text-4xl md:text-5xl font-bold text-secondary mb-2">$55K</div>
+              <div className="text-sm text-muted-foreground font-medium">Comprehensive AI Framework Fee</div>
             </div>
           </div>
         </div>

@@ -242,7 +242,7 @@ export default function AIRoadmap() {
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold text-primary mb-2">
-                $<CountUpNumber end={45} />K
+                $<CountUpNumber end={55} />K
               </div>
               <div className="text-sm text-muted-foreground font-medium">Investment</div>
             </div>
@@ -321,15 +321,15 @@ export default function AIRoadmap() {
               <div className="space-y-4">
                 <div className="flex justify-between items-center pb-4 border-b border-border">
                   <span className="text-muted-foreground">Total Investment</span>
-                  <span className="text-3xl font-bold text-primary">$45,000</span>
+                  <span className="text-3xl font-bold text-primary">$55,000</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-muted-foreground">Payment Structure</span>
                   <span className="font-semibold text-foreground">50% / 25% / 25%</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground">Expected ROI</span>
-                  <span className="font-semibold text-secondary">3-5x</span>
+                  <span className="text-muted-foreground">Infrastructure Savings (5yr)</span>
+                  <span className="font-semibold text-secondary">$167K-$347K</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-muted-foreground">Deliverable Ownership</span>

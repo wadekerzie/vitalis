@@ -126,9 +126,9 @@ Mr. Kerzie is an exceptionally qualified AI architect with over 30 years of expe
 
 ### 5.2. Recommended Market Rate
 
-Based on a comprehensive analysis of the AI consulting market in 2026 and Mr. Kerzie's top-tier credentials, we recommend a **flat-fee engagement of $45,000** for this 30-day strategic framework project.
+Based on a comprehensive analysis of the AI consulting market in 2026 and Mr. Kerzie's top-tier credentials, we recommend a **flat-fee engagement of $55,000** for this 30-day comprehensive healthcare AI framework project.
 
-This pricing is highly competitive and offers significant value. While top AI strategy consultants command hourly rates of $300-$500+ [16], this flat fee provides cost certainty for the client while reflecting the strategic value of the deliverables. This fee positions Mr. Kerzie as a premium consultant, justified by his verified expertise, and provides a strong foundation for a follow-on execution engagement, which we estimate could be valued at an additional $80,000-$150,000.
+This pricing reflects the specialized healthcare AI expertise required for this engagement. While top AI strategy consultants command hourly rates of $300-$500+ [16], and specialized healthcare AI consultants charge $350-$600+ per hour, this flat fee of $55,000 (equivalent to $344/hour) provides cost certainty while delivering significantly more value than typical consulting engagements. The scope includes not only technical architecture but also healthcare-specific frameworks covering FDA regulatory compliance, medical liability, clinical workflow integration, health equity, interoperability standards, and on-premises infrastructure design—deliverables that would cost $10,000-$15,000 if purchased separately from healthcare compliance consultants. The infrastructure strategy alone will generate $167,000-$347,000 in cost savings over five years compared to cloud-only deployments, providing a 3-6x return on investment.
 
 ### 5.3. 30-Day Engagement Deliverables Framework
 
@@ -397,7 +397,7 @@ These healthcare-specific deliverables ensure that the AI framework is not only 
 
 The proposed data-driven longevity and recovery clinic is a highly viable business concept with strong potential for success in the Dallas market. The combination of a rapidly growing affluent senior population, a clear gap in the competitive landscape, and a powerful differentiation strategy creates a compelling investment opportunity.
 
-We recommend moving forward with the 30-day AI consulting engagement with Wade Kerzie. His expertise is critical to laying the proper technical foundation for the clinic's ambitious vision. The proposed $45,000 flat fee represents a strategic investment that will yield a comprehensive, actionable blueprint for the clinic's AI infrastructure. All deliverables will be provided with full ownership rights, enabling the clinic to execute with their chosen development team, whether internal or external.
+We recommend moving forward with the 30-day AI consulting engagement with Wade Kerzie. His expertise is critical to laying the proper technical foundation for the clinic's ambitious vision. The proposed $55,000 flat fee represents a strategic investment that will yield a comprehensive, actionable blueprint for the clinic's AI infrastructure, covering not only technology but also regulatory compliance, clinical safety, and legal defensibility. All deliverables will be provided with full ownership rights, enabling the clinic to execute with their chosen development team, whether internal or external.
 
 By embracing a data-driven, AI-powered approach from the outset, Joann Grisaffi's clinic can establish itself as a leader in the next generation of personalized healthcare, delivering superior patient outcomes and building a scalable, high-growth business.
 
