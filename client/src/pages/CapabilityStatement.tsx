@@ -39,6 +39,22 @@ export default function CapabilityStatement() {
             A fully automated, AI-powered longevity clinic built from the ground up. No retrofitting broken processes. No generic cloud integrations. A greenfield opportunity to build the future of healthcare.
           </p>
 
+          {/* Clinic Interior Vision */}
+          <div className="mb-12">
+            <Card className="bg-slate-800/30 border-slate-700 overflow-hidden hover:border-emerald-500/50 transition-all duration-300">
+              <CardContent className="p-0">
+                <img 
+                  src="https://private-us-east-1.manuscdn.com/sessionFile/um8cNwHtyUYcQBRbRUzXgb/sandbox/TnbQWwe0z912aUlEZD7IEg-img-1_1771097736000_na1fn_dml0YWxpcy1jbGluaWMtaW50ZXJpb3I.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvdW04Y053SHR5VVljUUJSYlJVelhnYi9zYW5kYm94L1RuYlFXd2UwejkxMmFVbEVaRDdJRWctaW1nLTFfMTc3MTA5NzczNjAwMF9uYTFmbl9kbWwwWVd4cGN5MWpiR2x1YVdNdGFXNTBaWEpwYjNJLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=FsazbZfT1JqpQrncpxZFCxt2OqZhFd0iuJqwalEOFrfpjaf1SyVoSx3eJjZHZrN-PruL0hACEMOwYG0QYleqdAoe1pe7mDWLyPCqp78-K28quMNApzo6FIxfu6jns0JbGwkau8pcN2fudXSnNvY8OcgPo0TKtStj4T-G8vO86U406dGN~AZXU4y9XGk6mVi9DzLFsn5Xot9BHXJu1Zm4ZyKCymfa8KH1JX~ZcD3qj8eyABBkMb1XbydBwvj55EAtSggiunLjytxHftDUNBjn2qEHwppOB85mdgOvHlTj4xh~cya8dS9U8jhMgXqooS~ETjsFKvCTKBnGOdG8soxihw__"
+                  alt="Vitalis Clinic Interior"
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
+            <p className="text-sm text-slate-400 text-center mt-4 italic">
+              Minimalist. Tech-forward. More Apple Store than medical office.
+            </p>
+          </div>
+
           {/* Divider */}
           <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto mb-12"></div>
 
@@ -381,42 +397,7 @@ Please provide specific dollar ranges and justify the pricing based on expertise
             </p>
           </div>
 
-          {/* Clinic Interior Vision */}
-          <div className="mt-16">
-            <div className="text-center mb-8">
-              <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">
-                What Patients See When They Walk In
-              </h3>
-              <p className="text-lg text-slate-300">
-                Minimalist. Tech-forward. More Apple Store than medical office.
-              </p>
-            </div>
 
-            <Card className="bg-slate-800/30 border-slate-700 overflow-hidden hover:border-emerald-500/50 transition-all duration-300">
-              <CardContent className="p-0">
-                <img 
-                  src="https://private-us-east-1.manuscdn.com/sessionFile/um8cNwHtyUYcQBRbRUzXgb/sandbox/TnbQWwe0z912aUlEZD7IEg-img-1_1771097736000_na1fn_dml0YWxpcy1jbGluaWMtaW50ZXJpb3I.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvdW04Y053SHR5VVljUUJSYlJVelhnYi9zYW5kYm94L1RuYlFXd2UwejkxMmFVbEVaRDdJRWctaW1nLTFfMTc3MTA5NzczNjAwMF9uYTFmbl9kbWwwWVd4cGN5MWpiR2x1YVdNdGFXNTBaWEpwYjNJLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=FsazbZfT1JqpQrncpxZFCxt2OqZhFd0iuJqwalEOFrfpjaf1SyVoSx3eJjZHZrN-PruL0hACEMOwYG0QYleqdAoe1pe7mDWLyPCqp78-K28quMNApzo6FIxfu6jns0JbGwkau8pcN2fudXSnNvY8OcgPo0TKtStj4T-G8vO86U406dGN~AZXU4y9XGk6mVi9DzLFsn5Xot9BHXJu1Zm4ZyKCymfa8KH1JX~ZcD3qj8eyABBkMb1XbydBwvj55EAtSggiunLjytxHftDUNBjn2qEHwppOB85mdgOvHlTj4xh~cya8dS9U8jhMgXqooS~ETjsFKvCTKBnGOdG8soxihw__"
-                  alt="Vitalis Clinic Interior - Minimalist Design"
-                  className="w-full h-auto"
-                />
-              </CardContent>
-            </Card>
-
-            <div className="mt-6 grid md:grid-cols-3 gap-4">
-              <div className="bg-slate-800/30 border border-slate-700 rounded-lg p-6">
-                <h4 className="text-white font-semibold mb-2">Open Floor Plan</h4>
-                <p className="text-sm text-slate-400">No clutter, no traditional desks, no closed-door offices. Spacious and welcoming.</p>
-              </div>
-              <div className="bg-slate-800/30 border border-slate-700 rounded-lg p-6">
-                <h4 className="text-white font-semibold mb-2">Sleek Patient Stations</h4>
-                <p className="text-sm text-slate-400">Comfortable recliners with integrated tablets. Relaxed, spa-like atmosphere.</p>
-              </div>
-              <div className="bg-slate-800/30 border border-slate-700 rounded-lg p-6">
-                <h4 className="text-white font-semibold mb-2">Clinicians with iPads</h4>
-                <p className="text-sm text-slate-400">No bulky computers. All data accessible on mobile devices. Clean and modern.</p>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Next Steps */}
