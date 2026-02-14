@@ -4,8 +4,19 @@ import { CheckCircle2, FileText, Rocket, Shield, Zap } from "lucide-react";
 export default function CapabilityStatement() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+      {/* Branded Header */}
+      <div className="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+        <div className="container py-4">
+          <img 
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/102801090/kXJWEbVYDRxyQqCQ.png"
+            alt="Vitalis Clinic"
+            className="h-12 w-auto"
+          />
+        </div>
+      </div>
+
       {/* Hero Section */}
-      <div className="container py-20 md:py-32">
+      <div className="container py-20 md:py-32 pt-32 md:pt-40">
         <div className="max-w-4xl mx-auto text-center">
           {/* Credential Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full mb-8">
