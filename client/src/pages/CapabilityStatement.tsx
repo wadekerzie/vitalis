@@ -10,7 +10,7 @@ export default function CapabilityStatement() {
           {/* Credential Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full mb-8">
             <Shield className="h-4 w-4 text-emerald-400" />
-            <span className="text-sm font-semibold text-emerald-400">Applied AI Competency: 98/100 — Top 2% Globally</span>
+            <span className="text-sm font-semibold text-emerald-400">30+ Years Building Production Systems</span>
           </div>
 
           {/* Main Headline */}
@@ -115,10 +115,72 @@ export default function CapabilityStatement() {
           </div>
         </div>
 
+        {/* Production Systems */}
+        <div className="max-w-5xl mx-auto mt-24">
+          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-6">
+            I Build Production AI Systems
+          </h2>
+          <p className="text-xl text-slate-300 text-center mb-12">
+            Not slide decks. Not strategy documents. Real systems that ship.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Unison */}
+            <Card className="bg-slate-800/50 backdrop-blur-sm border-slate-700 hover:border-emerald-500/50 transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-lg flex items-center justify-center">
+                    <Zap className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-white">Unison</h3>
+                    <p className="text-sm text-slate-400">Production SaaS Platform</p>
+                  </div>
+                </div>
+                <p className="text-slate-300 leading-relaxed mb-4">
+                  AI-powered unified customer communication platform. Multi-channel automation (phone, SMS, web chat, Facebook, Instagram, email). 24/7 availability. Live in production serving small businesses.
+                </p>
+                <div className="flex items-center gap-2 text-sm text-emerald-400">
+                  <CheckCircle2 className="h-4 w-4" />
+                  <span>$500/month recurring revenue model</span>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Zorli */}
+            <Card className="bg-slate-800/50 backdrop-blur-sm border-slate-700 hover:border-emerald-500/50 transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center">
+                    <Shield className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-white">Zorli</h3>
+                    <p className="text-sm text-slate-400">Consumer AI Mobile App</p>
+                  </div>
+                </div>
+                <p className="text-slate-300 leading-relaxed mb-4">
+                  Voice-activated personal information retrieval app. Secure storage and instant retrieval of documents, passwords, insurance info, medical records. Voice-first design for seamless user experience.
+                </p>
+                <div className="flex items-center gap-2 text-sm text-purple-400">
+                  <CheckCircle2 className="h-4 w-4" />
+                  <span>Coming soon to iOS & Android</span>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-8 bg-slate-800/30 border border-slate-700 rounded-xl p-6">
+            <p className="text-slate-300 leading-relaxed text-center">
+              <span className="font-semibold text-white">Plus:</span> Countless websites rebuilt, business automation systems (GoHighLevel, Zapier), 30+ years telecom-to-SaaS experience. I don't just consult—I ship.
+            </p>
+          </div>
+        </div>
+
         {/* What I Bring */}
         <div className="max-w-5xl mx-auto mt-24">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
-            What I Bring to This Engagement
+            What I Bring to Your Longevity Clinic
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6">
@@ -130,7 +192,7 @@ export default function CapabilityStatement() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3">Patient Journey Automation</h3>
                 <p className="text-slate-300 leading-relaxed">
-                  From first contact to ongoing care. Conversational AI intake. Personalized AI agents per patient. Wearable integration. The Apple Store experience for healthcare.
+                  From first contact to ongoing care. Conversational AI intake. Personalized AI agents per patient. Wearable integration. The same multi-channel expertise that powers Unison.
                 </p>
               </CardContent>
             </Card>
@@ -143,7 +205,7 @@ export default function CapabilityStatement() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3">Healthcare-Grade Infrastructure</h3>
                 <p className="text-slate-300 leading-relaxed">
-                  On-premises LLMs. HIPAA compliance. FDA regulatory pathways. Medical liability frameworks. Disaster recovery. I understand healthcare AI—most consultants don't.
+                  On-premises LLMs. HIPAA compliance. FDA regulatory pathways. Medical liability frameworks. Disaster recovery. Telecom background means I understand infrastructure—not just cloud APIs.
                 </p>
               </CardContent>
             </Card>
@@ -173,19 +235,19 @@ export default function CapabilityStatement() {
                 </div>
                 <div className="flex-1 text-center md:text-left">
                   <h3 className="text-2xl font-bold text-white mb-2">Wade Kerzie</h3>
-                  <p className="text-lg text-slate-300 mb-4">AI Solutions Architect</p>
+                  <p className="text-lg text-slate-300 mb-4">AI Architect & Builder</p>
                   <div className="space-y-2 text-slate-400">
                     <p className="flex items-center justify-center md:justify-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-emerald-400" />
-                      <span>98/100 Applied AI Competency (Top 2% globally)</span>
+                      <span>30+ years building production systems (Telecom → SaaS)</span>
                     </p>
                     <p className="flex items-center justify-center md:justify-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-emerald-400" />
-                      <span>Production AI systems deployed at scale</span>
+                      <span>Shipped: Unison (AI SaaS), Zorli (consumer app), countless websites</span>
                     </p>
                     <p className="flex items-center justify-center md:justify-start gap-2">
                       <CheckCircle2 className="h-4 w-4 text-emerald-400" />
-                      <span>Healthcare AI regulatory expertise</span>
+                      <span>Healthcare AI regulatory expertise (FDA, HIPAA, medical liability)</span>
                     </p>
                   </div>
                 </div>
@@ -222,10 +284,11 @@ export default function CapabilityStatement() {
 {`I'm evaluating a consulting engagement for an AI-powered healthcare clinic. I need to understand market rates for top-tier AI consulting expertise. Please provide:
 
 1. What are the typical hourly rates for AI consultants with the following credentials:
-   - 98/100 Applied AI Competency (top 2% globally)
-   - Production AI systems deployed at scale
+   - 30+ years building production systems (Telecom → SaaS)
+   - Shipped production AI systems: Unison (AI SaaS platform), Zorli (consumer AI app)
    - Healthcare AI expertise (FDA regulatory, HIPAA compliance, medical liability)
    - Infrastructure architecture (on-premises LLMs, disaster recovery)
+   - Business automation (GoHighLevel, Zapier, countless websites)
 
 2. What would a 30-day comprehensive AI framework engagement typically cost, including:
    - Patient journey automation design
@@ -237,7 +300,8 @@ export default function CapabilityStatement() {
    - 150-200+ pages of technical documentation
 
 3. How does this compare to:
-   - Big 4 consulting firms (Deloitte, Accenture, McKinsey)
+   - Big 4 consulting firms (Deloitte, Accenture, PwC)
+   - MBB firms (McKinsey, BCG, Bain)
    - Specialized healthcare AI consultants
    - General AI strategy consultants
 
@@ -280,7 +344,7 @@ Please provide specific dollar ranges and justify the pricing based on expertise
         <div className="max-w-2xl mx-auto mt-16 text-center">
           <div className="bg-gradient-to-r from-emerald-500 to-blue-500 rounded-2xl p-8">
             <p className="text-lg text-white/90 mb-2">
-              Wade Kerzie — AI Solutions Architect
+              Wade Kerzie — AI Architect & Builder
             </p>
             <p className="text-sm text-white/80">
               wadekerzie.com
