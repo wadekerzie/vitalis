@@ -5,13 +5,19 @@ export default function CapabilityStatement() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       {/* Branded Header */}
-      <div className="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
-        <div className="container py-4">
-          <img 
-            src="https://files.manuscdn.com/user_upload_by_module/session_file/102801090/kXJWEbVYDRxyQqCQ.png"
-            alt="Vitalis Clinic"
-            className="h-12 w-auto"
-          />
+      <div className="fixed top-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-700/50">
+        <div className="container py-5">
+          <div className="flex items-center gap-4">
+            <img 
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/102801090/kXJWEbVYDRxyQqCQ.png"
+              alt="Vitalis Clinic"
+              className="h-16 w-auto"
+            />
+            <div className="hidden md:block h-12 w-px bg-slate-700"></div>
+            <div className="hidden md:block">
+              <p className="text-slate-300 text-sm font-medium tracking-wide">Data-Driven Longevity & Recovery</p>
+            </div>
+          </div>
         </div>
       </div>
 
