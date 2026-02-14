@@ -316,6 +316,55 @@ Please provide specific dollar ranges and justify the pricing based on expertise
           </Card>
         </div>
 
+        {/* Brand Vision */}
+        <div className="max-w-5xl mx-auto mt-24">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-500/10 border border-purple-500/20 rounded-full mb-6">
+              <Zap className="h-4 w-4 text-purple-400" />
+              <span className="text-sm font-semibold text-purple-400">Example: What Your Brand Could Look Like</span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              Vitalis Clinic
+            </h2>
+            <p className="text-xl text-slate-300">
+              Data-Driven Longevity & Recovery
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            {/* Logo Showcase - Light */}
+            <Card className="bg-white border-slate-300 hover:border-emerald-500/50 transition-all duration-300">
+              <CardContent className="p-12 flex items-center justify-center">
+                <img 
+                  src="https://private-us-east-1.manuscdn.com/sessionFile/um8cNwHtyUYcQBRbRUzXgb/sandbox/IFlbuUGDAcozWwuOWAgX6t_1771096763551_na1fn_dml0YWxpcy1jbGluaWMtbG9nbw.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvdW04Y053SHR5VVljUUJSYlJVelhnYi9zYW5kYm94L0lGbGJ1VUdEQWNveld3dU9XQWdYNnRfMTc3MTA5Njc2MzU1MV9uYTFmbl9kbWwwWVd4cGN5MWpiR2x1YVdNdGJHOW5idy5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=pWpyhVRM8f63W4e7KjJd9w0gagtvhrw3MwVduvQPVhWgbcQoFU~XSXmFgrF-NXj~0ratogZDvYEKqXC8ey0nVXiSEa28y-Yta7Avcy714IqTKuTd5xY6TwBvJ4lyY6t85p87J0eVmERF-i0h21WekYpHCQDh4ZXB5KIvbgOz~tmNahy2dD7wdS4XRsZCsuUTIzIJvhv33kTlU4N94eq7X-O~ukofg15DUrc1oDfSWl00rMTkRh9ksXLaOaYKgueiUjvfwWlWhDeVehlnHd-kg5jNeWYpSGWtP3ooYlcK34iZ4mIr7kozvjcd6WVd7a4zVNQ94Br9RndiXa3vCD8R~g__"
+                  alt="Vitalis Clinic Logo - Light"
+                  className="w-64 h-64 object-contain"
+                />
+              </CardContent>
+            </Card>
+
+            {/* Logo Showcase - Dark */}
+            <Card className="bg-slate-900 border-slate-700 hover:border-emerald-500/50 transition-all duration-300">
+              <CardContent className="p-12 flex items-center justify-center">
+                <img 
+                  src="https://private-us-east-1.manuscdn.com/sessionFile/um8cNwHtyUYcQBRbRUzXgb/sandbox/IFlbuUGDAcozWwuOWAgX6t_1771096763552_na1fn_dml0YWxpcy1jbGluaWMtbG9nby1kYXJr.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvdW04Y053SHR5VVljUUJSYlJVelhnYi9zYW5kYm94L0lGbGJ1VUdEQWNveld3dU9XQWdYNnRfMTc3MTA5Njc2MzU1Ml9uYTFmbl9kbWwwWVd4cGN5MWpiR2x1YVdNdGJHOW5ieTFrWVhKci5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=iP51nmFeQIRZpvK4Hx9VoMGWy7vU1ed5~~i7mD~oPjA6NpwWa6L9ehdODwDKW~W4u3lMPr0QF2-6vIlEb4AG7t3EXHLHjhhZW82BxLr~e079vxSlG8pCcYJArAzuGIBKfgYdb53m~ceiGtbPfdvjOFyGFl2cdLv3gnSwTXVG8L6Vz6L6STPEXT1aAMTk9iNUFT4oudW5xpQ~pel2rQWcaeNX5kE4cozqmZgLo46X0B1r-zCCt0~5mnusPI-c~oGVHYBO5c~6Pm2fMRh49OQxv33GMV-8QnXPDmSj9Tjkbul~qxpRVDKI6SeEb-R-yTw5i7CjA2iedQrUBwqbwy8FTA__"
+                  alt="Vitalis Clinic Logo - Dark"
+                  className="w-64 h-64 object-contain"
+                />
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-8 bg-slate-800/30 border border-slate-700 rounded-xl p-8">
+            <p className="text-slate-300 leading-relaxed text-center mb-4">
+              <span className="font-semibold text-white">Vitalis</span> (Latin: "vital, life force") — A premium medical brand that communicates longevity, data-driven optimization, and comprehensive care. The logo combines a rising vitality curve with a heartbeat line, symbolizing continuous health monitoring and improvement.
+            </p>
+            <p className="text-sm text-slate-400 text-center italic">
+              This is just one example. Your comprehensive engagement includes brand strategy, visual identity, and patient experience design—not just AI architecture.
+            </p>
+          </div>
+        </div>
+
         {/* Next Steps */}
         <div className="max-w-3xl mx-auto mt-20">
           <Card className="bg-slate-800/50 backdrop-blur-sm border-2 border-slate-700">
