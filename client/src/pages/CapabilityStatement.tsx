@@ -58,11 +58,8 @@ export default function CapabilityStatement() {
 
           {/* Value Delivered Statement */}
           <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-8 md:p-12 mb-12">
-            <p className="text-lg md:text-xl text-slate-200 leading-relaxed mb-6">
+            <p className="text-lg md:text-xl text-slate-200 leading-relaxed">
               Over the past few weeks, we've analyzed your market, mapped the competitive landscape, identified your differentiation strategy, and outlined a comprehensive AI framework. You now have clarity on what's possible.
-            </p>
-            <p className="text-lg md:text-xl text-white leading-relaxed font-semibold">
-              That represents $10,000–$15,000 in strategic consulting value already delivered.
             </p>
           </div>
         </div>
@@ -192,26 +189,16 @@ export default function CapabilityStatement() {
           </h2>
 
           <p className="text-lg text-slate-300 text-center mb-8 leading-relaxed">
-            This isn't just about AI architecture. A comprehensive engagement includes brand strategy, visual identity, and patient experience design. Here's one example of what that could look like for your clinic.
+            This isn't just about AI architecture. A comprehensive engagement includes brand strategy, visual identity, and patient experience design. Here's an example of what that could look like for your clinic.
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
+          <div className="max-w-md mx-auto mb-8">
             <Card className="bg-slate-800/30 border-slate-700 overflow-hidden">
               <CardContent className="p-12 flex items-center justify-center bg-white">
                 <img 
                   src="https://files.manuscdn.com/user_upload_by_module/session_file/102801090/kXJWEbVYDRxyQqCQ.png"
-                  alt="Vitalis Clinic Logo - Light"
-                  className="w-64 h-64 object-contain"
-                />
-              </CardContent>
-            </Card>
-
-            <Card className="bg-slate-800/30 border-slate-700 overflow-hidden">
-              <CardContent className="p-12 flex items-center justify-center">
-                <img 
-                  src="https://private-us-east-1.manuscdn.com/sessionFile/um8cNwHtyUYcQBRbRUzXgb/sandbox/IFlbuUGDAcozWwuOWAgX6t_1771096763552_na1fn_dml0YWxpcy1jbGluaWMtbG9nby1kYXJr.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvdW04Y053SHR5VVljUUJSYlJVelhnYi9zYW5kYm94L0lGbGJ1VUdEQWNveld3dU9XQWdYNnRfMTc3MTA5Njc2MzU1Ml9uYTFmbl9kbWwwWVd4cGN5MWpiR2x1YVdNdGJHOW5ieTFrWVhKcy5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=iP51nmFeQIRZpvK4Hx9VoMGWy7vU1ed5~~i7mD~oPjA6NpwWa6L9ehdODwDKW~W4u3lMPr0QF2-6vIlEb4AG7t3EXHLHjhhZW82BxLr~e079vxSlG8pCcYJArAzuGIBKfgYdb53m~ceiGtbPfdvjOFyGFl2cdLv3gnSwTXVG8L6Vz6L6STPEXT1aAMTk9iNUFT4oudW5xpQ~pel2rQWcaeNX5kE4cozqmZgLo46X0B1r-zCCt0~5mnusPI-c~oGVHYBO5c~6Pm2fMRh49OQxv33GMV-8QnXPDmSj9Tjkbul~qxpRVDKI6SeEb-R-yTw5i7CjA2iedQrUBwqbwy8FTA__"
-                  alt="Vitalis Clinic Logo - Dark"
-                  className="w-64 h-64 object-contain"
+                  alt="Vitalis Clinic Logo"
+                  className="w-full h-auto object-contain"
                 />
               </CardContent>
             </Card>
