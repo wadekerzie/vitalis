@@ -194,6 +194,64 @@ export default function CapabilityStatement() {
           </Card>
         </div>
 
+        {/* Do Your Own Research */}
+        <div className="max-w-4xl mx-auto mt-24">
+          <Card className="bg-gradient-to-br from-blue-500/10 to-purple-500/10 backdrop-blur-sm border-2 border-blue-500/30">
+            <CardContent className="p-8 md:p-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center">
+                Don't Take My Word For It
+              </h2>
+              <p className="text-xl text-slate-300 mb-8 leading-relaxed text-center">
+                Before we discuss pricing, I want you to do your own research. Copy the prompt below and paste it into ChatGPT, Claude, or Grok. Ask AI what top-tier expertise costs.
+              </p>
+
+              <div className="bg-slate-900 border border-slate-700 rounded-xl p-6 mb-6 relative">
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-sm font-semibold text-emerald-400">Copy this prompt ↓</span>
+                  <button
+                    onClick={() => {
+                      const prompt = document.getElementById('research-prompt')?.innerText || '';
+                      navigator.clipboard.writeText(prompt);
+                    }}
+                    className="px-4 py-2 bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-semibold rounded-lg transition-colors"
+                  >
+                    Copy Prompt
+                  </button>
+                </div>
+                <div id="research-prompt" className="text-sm text-slate-300 leading-relaxed font-mono whitespace-pre-wrap">
+{`I'm evaluating a consulting engagement for an AI-powered healthcare clinic. I need to understand market rates for top-tier AI consulting expertise. Please provide:
+
+1. What are the typical hourly rates for AI consultants with the following credentials:
+   - 98/100 Applied AI Competency (top 2% globally)
+   - Production AI systems deployed at scale
+   - Healthcare AI expertise (FDA regulatory, HIPAA compliance, medical liability)
+   - Infrastructure architecture (on-premises LLMs, disaster recovery)
+
+2. What would a 30-day comprehensive AI framework engagement typically cost, including:
+   - Patient journey automation design
+   - Clinical operations AI architecture
+   - Healthcare compliance frameworks (FDA, HIPAA, medical liability)
+   - Infrastructure design (on-premises LLMs, disaster recovery)
+   - Working prototypes
+   - Implementation playbooks
+   - 150-200+ pages of technical documentation
+
+3. How does this compare to:
+   - Big 4 consulting firms (Deloitte, Accenture, McKinsey)
+   - Specialized healthcare AI consultants
+   - General AI strategy consultants
+
+Please provide specific dollar ranges and justify the pricing based on expertise level and deliverable scope.`}
+                </div>
+              </div>
+
+              <p className="text-lg text-slate-300 leading-relaxed text-center">
+                This is how you get an unbiased answer. When you see what the market says, we can have an informed conversation about value.
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+
         {/* Next Steps */}
         <div className="max-w-3xl mx-auto mt-20">
           <Card className="bg-slate-800/50 backdrop-blur-sm border-2 border-slate-700">
