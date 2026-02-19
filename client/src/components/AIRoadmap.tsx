@@ -31,10 +31,9 @@ const milestones: Milestone[] = [
     outcome: "You'll know exactly what to build, how to stay compliant, and where AI creates maximum value",
     deliverables: [
       { icon: FileText, label: "Strategic Blueprint" },
-      { icon: Shield, label: "FDA Regulatory Assessment" },
-      { icon: Target, label: "Clinical Workflow Maps" },
-      { icon: Boxes, label: "Health Equity Framework" },
-      { icon: Shield, label: "Medical Liability Assessment" },
+      { icon: Shield, label: "Compliance Framework" },
+      { icon: Target, label: "Patient Journey Map" },
+      { icon: Boxes, label: "Technology Roadmap" },
     ],
     impact: "Eliminate 90% of technical uncertainty",
     color: "from-blue-500 to-blue-600",
@@ -46,10 +45,9 @@ const milestones: Milestone[] = [
     outcome: "Your AI systems are designed, documented, and ready for development teams to execute",
     deliverables: [
       { icon: Sparkles, label: "AI Engine Specifications" },
-      { icon: Boxes, label: "Infrastructure & Disaster Recovery" },
-      { icon: Shield, label: "Standards Compliance (FHIR/LOINC)" },
-      { icon: FileText, label: "Explainability Design Patterns" },
-      { icon: Target, label: "Revenue Cycle Integration" },
+      { icon: Boxes, label: "Integration Blueprint" },
+      { icon: Shield, label: "Security Architecture" },
+      { icon: FileText, label: "Data Model Schemas" },
     ],
     impact: "Reduce development risk by 70%",
     color: "from-emerald-500 to-emerald-600",
@@ -65,17 +63,17 @@ const milestones: Milestone[] = [
       { icon: FileText, label: "Cost Projections" },
       { icon: Zap, label: "ROI Analysis" },
     ],
-    impact: "Validate approach before full build",
+    impact: "Validate $150K+ execution investment",
     color: "from-purple-500 to-cyan-500",
     gradient: "bg-gradient-to-br from-purple-500/10 to-cyan-500/10",
   },
   {
     week: 4,
     phase: "Execution Ready",
-    outcome: "Complete playbooks ready to hand off to your chosen execution team—no guesswork",
+    outcome: "Your team has everything needed to build, deploy, and scale—no guesswork",
     deliverables: [
       { icon: BookOpen, label: "Implementation Playbooks" },
-      { icon: Target, label: "AI Lifecycle Management Plan" },
+      { icon: Target, label: "Resource Plan" },
       { icon: FileText, label: "Execution Timeline" },
       { icon: Rocket, label: "Knowledge Transfer" },
     ],
@@ -188,7 +186,7 @@ function MilestoneCard({ milestone, index }: { milestone: Milestone; index: numb
               <div className="mt-4 pt-4 border-t border-border">
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <CheckCircle2 className="h-4 w-4 text-secondary" />
-                  <span>Ready to hand off to any execution team</span>
+                  <span>Deliverables ready for execution team</span>
                 </div>
               </div>
             </motion.div>
@@ -242,7 +240,7 @@ export default function AIRoadmap() {
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold text-primary mb-2">
-                $<CountUpNumber end={55} />K
+                $<CountUpNumber end={45} />K
               </div>
               <div className="text-sm text-muted-foreground font-medium">Investment</div>
             </div>
@@ -321,19 +319,19 @@ export default function AIRoadmap() {
               <div className="space-y-4">
                 <div className="flex justify-between items-center pb-4 border-b border-border">
                   <span className="text-muted-foreground">Total Investment</span>
-                  <span className="text-3xl font-bold text-primary">$55,000</span>
+                  <span className="text-3xl font-bold text-primary">$45,000</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-muted-foreground">Payment Structure</span>
                   <span className="font-semibold text-foreground">50% / 25% / 25%</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground">Infrastructure Savings (5yr)</span>
-                  <span className="font-semibold text-secondary">$167K-$347K</span>
+                  <span className="text-muted-foreground">Expected ROI</span>
+                  <span className="font-semibold text-secondary">3-5x</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground">Deliverable Ownership</span>
-                  <span className="font-semibold text-foreground">Full rights to all playbooks</span>
+                  <span className="text-muted-foreground">Risk Mitigation</span>
+                  <span className="font-semibold text-foreground">Validate before $150K+ execution</span>
                 </div>
               </div>
             </CardContent>
