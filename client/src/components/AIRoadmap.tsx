@@ -238,12 +238,7 @@ export default function AIRoadmap() {
               </div>
               <div className="text-sm text-muted-foreground font-medium">Milestones</div>
             </div>
-            <div className="text-center">
-              <div className="text-5xl font-bold text-primary mb-2">
-                $<CountUpNumber end={45} />K
-              </div>
-              <div className="text-sm text-muted-foreground font-medium">Investment</div>
-            </div>
+
           </div>
 
           {/* Value Props */}
@@ -306,37 +301,54 @@ export default function AIRoadmap() {
         </motion.div>
 
         {/* Investment Summary */}
+
+        {/* LLM Research Prompt */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
-          className="mt-12 max-w-2xl mx-auto"
+          className="mt-16 max-w-4xl mx-auto"
         >
           <Card className="bg-card/50 backdrop-blur-sm border-2 shadow-xl">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-6 text-center text-foreground">Investment Summary</h3>
-              <div className="space-y-4">
-                <div className="flex justify-between items-center pb-4 border-b border-border">
-                  <span className="text-muted-foreground">Total Investment</span>
-                  <span className="text-3xl font-bold text-primary">$45,000</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground">Payment Structure</span>
-                  <span className="font-semibold text-foreground">50% / 25% / 25%</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground">Expected ROI</span>
-                  <span className="font-semibold text-secondary">3-5x</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground">Risk Mitigation</span>
-                  <span className="font-semibold text-foreground">Validate before $150K+ execution</span>
-                </div>
+              <h3 className="text-2xl font-bold mb-4 text-center text-foreground">Don't Take My Word For It</h3>
+              <p className="text-muted-foreground text-center mb-6">
+                Want to know what top-tier AI consulting typically costs? Copy this prompt into ChatGPT, Claude, or Grok and see for yourself:
+              </p>
+              <div className="bg-background/80 border border-border rounded-lg p-6 font-mono text-sm text-foreground overflow-x-auto">
+                <pre className="whitespace-pre-wrap">
+{`I'm evaluating a consulting proposal for a 30-day AI strategy engagement in the healthcare space. The consultant has:
+
+- 30+ years experience (Telecom → SaaS → AI)
+- Built production AI systems (Unison SaaS platform, Zorli consumer app)
+- Deep healthcare AI expertise (FDA compliance, clinical workflows, HIPAA security)
+- Delivered countless websites, automations, and integrations
+
+The engagement deliverables include:
+- Strategic AI Transformation Roadmap
+- Technical architecture documentation
+- Vendor evaluation frameworks
+- Clinical workflow integration plans
+- Regulatory compliance playbooks
+- Working prototypes and proof-of-concepts
+- Team training and knowledge transfer
+
+What is the typical market rate range for this level of expertise and scope in 2026? Please provide:
+1. Low-end (junior consultants or offshore)
+2. Mid-range (experienced consultants)
+3. High-end (top-tier experts with healthcare specialization)
+4. How does production AI system experience affect pricing?
+5. What premium does healthcare domain expertise command?`}
+                </pre>
               </div>
+              <p className="text-muted-foreground text-center mt-6 text-sm">
+                This is about transparency. You'll see the market range, and you'll understand where this proposal sits.
+              </p>
             </CardContent>
           </Card>
         </motion.div>
+
       </div>
     </div>
   );
