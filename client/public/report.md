@@ -12,7 +12,7 @@ This report provides a comprehensive market viability analysis for a proposed da
 
 The Dallas market presents a compelling opportunity, characterized by a rapidly growing affluent senior population and a significant concentration of wealth. Our research indicates a robust and expanding market for longevity and wellness services, with over 72,400 millionaires residing in the Dallas area [8]. The competitive landscape includes established players like Fountain Life and Sanctum Med + Wellness, but significant gaps exist for a clinic that offers a comprehensive, data-driven, and relationship-focused approach that extends beyond diagnostics or a single gender focus.
 
-This report also outlines a proposal for a 30-day AI consulting engagement to be led by Wade Kerzie. Given Mr. Kerzie's exceptional **Applied AI Competency Index™ score of 98/100** and extensive experience in building and deploying production AI systems, we recommend a **flat-fee engagement of $45,000**. This engagement will deliver a comprehensive strategic framework, technical architecture, working prototypes, and implementation playbooks for the AI-powered automation of the clinic's operations and patient intake processes. The deliverables are designed to provide a clear roadmap for a subsequent execution phase, positioning the clinic for a successful launch and scalable growth.
+This report also outlines a framework for a strategic AI consulting engagement led by Wade Kerzie, whose extensive experience building and deploying production AI systems positions him to architect the technical foundation for this clinic. The engagement will deliver a comprehensive strategic framework, technical architecture, working prototypes, and implementation playbooks for AI-powered automation of clinic operations and patient intake processes. This is a professional engagement with a seasoned AI architect who has shipped revenue-generating systems—not a hobbyist experiment. The deliverables are designed to provide the execution-ready roadmap necessary for successful launch and scalable growth, ensuring the clinic's AI infrastructure is built correctly from day one.
 
 ---
 
@@ -120,17 +120,11 @@ To realize the vision of a data-driven, AI-powered clinic, a robust and scalable
 
 Mr. Kerzie is an exceptionally qualified AI architect with over 30 years of experience in technology. His credentials place him in the top tier of AI consultants, making him an ideal partner for this ambitious project.
 
--   **Applied AI Competency Index™**: Mr. Kerzie holds a score of **98/100 (Verified Architect)**, a testament to his proven ability to build and deploy complex, revenue-generating AI systems [15].
--   **Production Experience**: His portfolio includes the successful deployment of production systems in unified communications, lead qualification, and consumer mobile applications, demonstrating a rare ability to move beyond theory to real-world impact.
+-   **Production Experience**: His portfolio includes the successful deployment of production AI systems including Unison (SaaS platform for unified communications), Zorli (consumer mobile application), and countless websites, automations, and integrations. This demonstrates a rare ability to move beyond theory to real-world impact—systems that generate revenue, not just research papers.
+-   **Healthcare AI Expertise**: Deep knowledge of FDA regulatory compliance, clinical workflow integration, HIPAA security architecture, and health equity considerations in AI deployment.
 -   **Relevant Expertise**: His experience with multi-channel orchestration, cloud infrastructure (AWS), security architecture, and real-time AI makes him uniquely suited to design the sophisticated workflows required for the clinic.
 
-### 5.2. Recommended Market Rate
-
-Based on a comprehensive analysis of the AI consulting market in 2026 and Mr. Kerzie's top-tier credentials, we recommend a **flat-fee engagement of $45,000** for this 30-day strategic framework project.
-
-This pricing is highly competitive and offers significant value. While top AI strategy consultants command hourly rates of $300-$500+ [16], this flat fee provides cost certainty for the client while reflecting the strategic value of the deliverables. This fee positions Mr. Kerzie as a premium consultant, justified by his verified expertise, and provides a strong foundation for a follow-on execution engagement, which we estimate could be valued at an additional $80,000-$150,000.
-
-### 5.3. 30-Day Engagement Deliverables Framework
+### 5.2. 30-Day Engagement Deliverables Framework
 
 The 30-day engagement is designed to produce a comprehensive strategic and technical blueprint for the clinic's AI infrastructure. The deliverables are organized into a four-week sprint, culminating in a complete handoff package for the execution team.
 
@@ -149,7 +143,7 @@ This structured approach ensures that all critical aspects of the AI framework a
 
 The proposed data-driven longevity and recovery clinic is a highly viable business concept with strong potential for success in the Dallas market. The combination of a rapidly growing affluent senior population, a clear gap in the competitive landscape, and a powerful differentiation strategy creates a compelling investment opportunity.
 
-We recommend moving forward with the 30-day AI consulting engagement with Wade Kerzie. His expertise is critical to laying the proper technical foundation for the clinic's ambitious vision. The proposed $45,000 flat fee represents a strategic investment that will yield a comprehensive, actionable blueprint for the clinic's AI infrastructure, significantly de-risking the execution phase and accelerating the path to market.
+We recommend moving forward with the strategic AI consulting engagement with Wade Kerzie. His expertise is critical to laying the proper technical foundation for the clinic's ambitious vision. This is a professional engagement with a seasoned architect who has built production systems that generate revenue—the foundation for successful deployment will not come cheap, but it will be built correctly from day one. The engagement will yield a comprehensive, execution-ready blueprint for the clinic's AI infrastructure, significantly de-risking the execution phase and accelerating the path to market.
 
 By embracing a data-driven, AI-powered approach from the outset, Joann Grisaffi's clinic can establish itself as a leader in the next generation of personalized healthcare, delivering superior patient outcomes and building a scalable, high-growth business.
 
