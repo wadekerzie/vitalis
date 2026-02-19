@@ -156,10 +156,10 @@ function MilestoneCard({ milestone, index }: { milestone: Milestone; index: numb
                     whileInView={{ scale: 1, opacity: 1 }}
                     transition={{ delay: index * 0.1 + idx * 0.05 }}
                     viewport={{ once: true }}
-                    className="flex items-center gap-2 p-2 rounded-lg bg-card/50 backdrop-blur-sm"
+                    className="flex items-start gap-2 p-3 rounded-lg bg-card/50 backdrop-blur-sm min-h-[3rem]"
                   >
-                    <Icon className="h-4 w-4 text-primary flex-shrink-0" />
-                    <span className="text-xs font-medium text-foreground">{deliverable.label}</span>
+                    <Icon className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                    <span className="text-xs font-medium text-foreground leading-tight">{deliverable.label}</span>
                   </motion.div>
                 );
               })}
