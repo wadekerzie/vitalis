@@ -77,22 +77,21 @@ export default function Home() {
       </div>
 
       {/* Key Metrics Section */}
-      <div className="bg-card border-b">
-        <div className="container py-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-primary mb-2">72,400</div>
-              <div className="text-sm text-muted-foreground font-medium">Millionaires in Dallas</div>
+      <div className="bg-gradient-to-b from-card to-muted/20 border-b border-border/50">
+        <div className="container py-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div className="text-center p-6 rounded-lg bg-card/50 backdrop-blur-sm border border-border/30 shadow-sm hover:shadow-md transition-shadow">
+              <div className="text-5xl md:text-6xl font-bold text-primary mb-3">72,400</div>
+              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wide">Millionaires in Dallas</div>
             </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-secondary mb-2">85%</div>
-              <div className="text-sm text-muted-foreground font-medium">Millionaire Growth (10yr)</div>
+            <div className="text-center p-6 rounded-lg bg-card/50 backdrop-blur-sm border border-border/30 shadow-sm hover:shadow-md transition-shadow">
+              <div className="text-5xl md:text-6xl font-bold text-secondary mb-3">85%</div>
+              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wide">Millionaire Growth (10yr)</div>
             </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-primary mb-2">$18.2B</div>
-              <div className="text-sm text-muted-foreground font-medium">US Aesthetic Surgery Market</div>
+            <div className="text-center p-6 rounded-lg bg-card/50 backdrop-blur-sm border border-border/30 shadow-sm hover:shadow-md transition-shadow">
+              <div className="text-5xl md:text-6xl font-bold text-primary mb-3">$18.2B</div>
+              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wide">US Aesthetic Surgery Market</div>
             </div>
-
           </div>
         </div>
       </div>
