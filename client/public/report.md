@@ -2,7 +2,7 @@
 
 **Prepared for**: Wade Kerzie
 **Date**: February 12, 2026
-**Author**: Manus AI
+**Author**: Wade Kerzie
 
 ---
 

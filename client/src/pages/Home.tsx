@@ -138,7 +138,7 @@ export default function Home() {
               <CardHeader className="border-b bg-muted/30">
                 <CardTitle className="text-2xl">Market Viability Report</CardTitle>
                 <CardDescription className="text-base">
-                  Prepared by Manus AI • February 12, 2026
+                  Prepared by Wade Kerzie • February 12, 2026
                 </CardDescription>
               </CardHeader>
               <CardContent className="p-8 md:p-12">
@@ -210,7 +210,7 @@ export default function Home() {
         <div className="container py-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © 2026 Market Viability Study. Prepared by Manus AI.
+              © 2026 Market Viability Study. Prepared by Wade Kerzie.
             </p>
             <p className="text-sm text-muted-foreground">
               For: Wade Kerzie • Hap & Joann Flaherty
