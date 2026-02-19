@@ -36,11 +36,11 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Fixed Logo - Top Left */}
-      <div className="fixed top-4 left-2 md:left-4 z-50">
+      <div className="fixed top-3 left-2 md:left-3 z-50">
         <img 
           src="https://files.manuscdn.com/user_upload_by_module/session_file/102801090/MTioXterhBgvPFrr.png" 
           alt="Kerzie AI" 
-          className="w-12 h-12 md:w-16 md:h-16 drop-shadow-lg hover:scale-105 transition-transform duration-200"
+          className="w-10 h-10 md:w-12 md:h-12 drop-shadow-lg hover:scale-105 transition-transform duration-200"
         />
       </div>
       {/* Hero Section with Gradient */}
