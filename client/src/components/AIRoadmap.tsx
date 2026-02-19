@@ -146,7 +146,7 @@ function MilestoneCard({ milestone, index }: { milestone: Milestone; index: numb
             </p>
 
             {/* Deliverables Grid */}
-            <div className="grid grid-cols-2 gap-4 mb-6">
+            <div className="grid grid-cols-1 gap-3 mb-6">
               {milestone.deliverables.map((deliverable, idx) => {
                 const Icon = deliverable.icon;
                 return (
@@ -156,10 +156,10 @@ function MilestoneCard({ milestone, index }: { milestone: Milestone; index: numb
                     whileInView={{ scale: 1, opacity: 1 }}
                     transition={{ delay: index * 0.1 + idx * 0.05 }}
                     viewport={{ once: true }}
-                    className="flex items-start gap-3 p-4 rounded-lg bg-card/50 backdrop-blur-sm min-h-[4rem]"
+                    className="flex items-center gap-3 p-3 rounded-lg bg-card/50 backdrop-blur-sm"
                   >
-                    <Icon className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-[10px] md:text-xs font-medium text-foreground leading-relaxed break-words overflow-wrap-anywhere">{deliverable.label}</span>
+                    <Icon className="h-4 w-4 text-primary flex-shrink-0" />
+                    <span className="text-xs font-medium text-foreground">{deliverable.label}</span>
                   </motion.div>
                 );
               })}
