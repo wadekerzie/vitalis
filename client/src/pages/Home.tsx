@@ -52,10 +52,10 @@ export default function Home() {
               Market Viability Study
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Data-Driven Longevity & Recovery Clinic
+              Vitalis: Biometric Optimization Franchise Platform
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 leading-relaxed">
-              Comprehensive market analysis and AI consulting proposal for a premium wellness clinic in Dallas, Texas
+              Market viability analysis for a subscription-first franchise system engineered for multi-city expansion in the longevity sector
             </p>
             <div className="flex flex-wrap gap-4">
               <Button 
