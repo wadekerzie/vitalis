@@ -4,6 +4,7 @@ import {
   BookOpen, 
   Boxes, 
   CheckCircle2, 
+  Copy,
   FileText, 
   Lightbulb, 
   Rocket, 
@@ -316,8 +317,46 @@ export default function AIRoadmap() {
               <p className="text-muted-foreground text-center mb-6">
                 Want to know what top-tier AI consulting typically costs? Copy this prompt into ChatGPT, Claude, or Grok and see for yourself:
               </p>
-              <div className="bg-background/80 border border-border rounded-lg p-6 font-mono text-sm text-foreground overflow-x-auto">
-                <pre className="whitespace-pre-wrap">
+              <div className="relative bg-background/80 border border-border rounded-lg p-6 font-mono text-sm text-foreground overflow-x-auto">
+                <button
+                  onClick={() => {
+                    const promptText = `I'm evaluating a consulting proposal for architecting a proprietary AI infrastructure for a healthcare franchise platform. The consultant has:
+
+- 30+ years experience (Telecom → SaaS → AI)
+- Built production AI systems (Unison SaaS platform, Zorli consumer app)
+- Deep healthcare AI expertise (FDA compliance, clinical workflows, HIPAA security)
+- Experience with on-premise LLM deployment, custom EMR architecture, and cloud infrastructure
+
+The engagement scope includes:
+- On-premise LLM + cloud hybrid architecture design
+- Custom EMR/EHR system data models (independent from Epic/Cerner)
+- HIPAA compliance framework without vendor lock-in
+- Hardware specifications (GPU inference servers, encrypted storage)
+- Lab API integration blueprints (HL7 FHIR for Quest/LabCorp)
+- Wearable data ingestion architecture (Apple HealthKit, Oura, Whoop)
+- Proprietary scoring algorithm design
+- Working prototypes (local LLM inference, lab integrations, scoring engine)
+- Franchise replication guide for multi-city deployment
+- Security audit checklists and HIPAA documentation
+
+What is the typical market rate range for this level of expertise and scope in 2026? Please provide:
+1. Low-end (junior consultants or offshore)
+2. Mid-range (experienced consultants)
+3. High-end (top-tier experts with healthcare AI + infrastructure specialization)
+4. How does proprietary infrastructure architecture affect pricing vs. standard integrations?
+5. What premium does on-premise LLM deployment and HIPAA compliance expertise command?`;
+                    navigator.clipboard.writeText(promptText);
+                    const btn = document.activeElement as HTMLButtonElement;
+                    const originalText = btn.innerHTML;
+                    btn.innerHTML = '<span class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Copied!</span>';
+                    setTimeout(() => { btn.innerHTML = originalText; }, 2000);
+                  }}
+                  className="absolute top-3 right-3 px-3 py-1.5 bg-primary text-primary-foreground rounded-md text-xs font-semibold hover:bg-primary/90 transition-colors flex items-center gap-2"
+                >
+                  <Copy className="h-3 w-3" />
+                  Copy Prompt
+                </button>
+                <pre className="whitespace-pre-wrap pr-28">
 {`I'm evaluating a consulting proposal for architecting a proprietary AI infrastructure for a healthcare franchise platform. The consultant has:
 
 - 30+ years experience (Telecom → SaaS → AI)
