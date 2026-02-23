@@ -318,28 +318,31 @@ export default function AIRoadmap() {
               </p>
               <div className="bg-background/80 border border-border rounded-lg p-6 font-mono text-sm text-foreground overflow-x-auto">
                 <pre className="whitespace-pre-wrap">
-{`I'm evaluating a consulting proposal for a 30-day AI strategy engagement in the healthcare space. The consultant has:
+{`I'm evaluating a consulting proposal for architecting a proprietary AI infrastructure for a healthcare franchise platform. The consultant has:
 
 - 30+ years experience (Telecom → SaaS → AI)
 - Built production AI systems (Unison SaaS platform, Zorli consumer app)
 - Deep healthcare AI expertise (FDA compliance, clinical workflows, HIPAA security)
-- Delivered countless websites, automations, and integrations
+- Experience with on-premise LLM deployment, custom EMR architecture, and cloud infrastructure
 
-The engagement deliverables include:
-- Strategic AI Transformation Roadmap
-- Technical architecture documentation
-- Vendor evaluation frameworks
-- Clinical workflow integration plans
-- Regulatory compliance playbooks
-- Working prototypes and proof-of-concepts
-- Team training and knowledge transfer
+The engagement scope includes:
+- On-premise LLM + cloud hybrid architecture design
+- Custom EMR/EHR system data models (independent from Epic/Cerner)
+- HIPAA compliance framework without vendor lock-in
+- Hardware specifications (GPU inference servers, encrypted storage)
+- Lab API integration blueprints (HL7 FHIR for Quest/LabCorp)
+- Wearable data ingestion architecture (Apple HealthKit, Oura, Whoop)
+- Proprietary scoring algorithm design
+- Working prototypes (local LLM inference, lab integrations, scoring engine)
+- Franchise replication guide for multi-city deployment
+- Security audit checklists and HIPAA documentation
 
 What is the typical market rate range for this level of expertise and scope in 2026? Please provide:
 1. Low-end (junior consultants or offshore)
 2. Mid-range (experienced consultants)
-3. High-end (top-tier experts with healthcare specialization)
-4. How does production AI system experience affect pricing?
-5. What premium does healthcare domain expertise command?`}
+3. High-end (top-tier experts with healthcare AI + infrastructure specialization)
+4. How does proprietary infrastructure architecture affect pricing vs. standard integrations?
+5. What premium does on-premise LLM deployment and HIPAA compliance expertise command?`}
                 </pre>
               </div>
               <p className="text-muted-foreground text-center mt-6 text-sm">
