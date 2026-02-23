@@ -194,6 +194,7 @@ export default function Home() {
                       size="lg" 
                       variant="secondary"
                       className="font-semibold"
+                      onClick={() => window.open('https://api.leadconnectorhq.com/widget/bookings/wade-kerzie', '_blank')}
                     >
                       Schedule Consultation
                     </Button>
