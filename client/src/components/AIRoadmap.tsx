@@ -216,13 +216,13 @@ export default function AIRoadmap() {
           className="text-center mb-16"
         >
           <div className="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-wide uppercase bg-secondary/20 text-secondary rounded-full">
-            AI Transformation Roadmap
+            Phase 1: Architecture Engagement
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            30 Days to AI-Powered Operations
+            30 Days. Paid Upfront. Owned by Vitalis.
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            A strategic framework that de-risks execution and accelerates time-to-market
+            The architecture engagement is a fixed-fee, time-bounded IP transfer. Before a single line of code is written for Vitalis, the blueprint, compliance framework, and proprietary algorithms are contracted and paid. This is not speculative work.
           </p>
 
           {/* Counter Stats */}
@@ -245,24 +245,24 @@ export default function AIRoadmap() {
           {/* Value Props */}
           <div className="flex flex-wrap justify-center gap-6 max-w-4xl mx-auto">
             <div className="flex items-center gap-3 px-6 py-3 bg-card rounded-lg shadow-md">
-              <Zap className="h-5 w-5 text-secondary" />
+              <Shield className="h-5 w-5 text-secondary" />
               <div className="text-left">
-                <div className="font-bold text-sm text-foreground">Fast</div>
-                <div className="text-xs text-muted-foreground">Strategic framework in 30 days</div>
+                <div className="font-bold text-sm text-foreground">Non-Contingent</div>
+                <div className="text-xs text-muted-foreground">Paid before work begins, no equity</div>
               </div>
             </div>
             <div className="flex items-center gap-3 px-6 py-3 bg-card rounded-lg shadow-md">
               <Target className="h-5 w-5 text-secondary" />
               <div className="text-left">
-                <div className="font-bold text-sm text-foreground">Proven</div>
-                <div className="text-xs text-muted-foreground">Built by 98/100 AI Architect</div>
+                <div className="font-bold text-sm text-foreground">IP Transfer</div>
+                <div className="text-xs text-muted-foreground">All deliverables owned by Vitalis</div>
               </div>
             </div>
             <div className="flex items-center gap-3 px-6 py-3 bg-card rounded-lg shadow-md">
               <Rocket className="h-5 w-5 text-secondary" />
               <div className="text-left">
-                <div className="font-bold text-sm text-foreground">Executable</div>
-                <div className="text-xs text-muted-foreground">Ready for immediate development</div>
+                <div className="font-bold text-sm text-foreground">Execution-Ready</div>
+                <div className="text-xs text-muted-foreground">Complete handoff package at Day 30</div>
               </div>
             </div>
           </div>
@@ -294,7 +294,7 @@ export default function AIRoadmap() {
                 </div>
                 <div>
                   <div className="font-bold text-lg text-foreground">Wade Kerzie</div>
-                  <div className="text-sm text-muted-foreground">Applied AI Competency: 98/100</div>
+                  <div className="text-sm text-muted-foreground">Principal Architect — Kerzie AI</div>
                 </div>
               </div>
             </CardContent>
@@ -313,38 +313,49 @@ export default function AIRoadmap() {
         >
           <Card className="bg-card/50 backdrop-blur-sm border-2 shadow-xl">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-4 text-center text-foreground">Don't Take My Word For It</h3>
+              <h3 className="text-2xl font-bold mb-4 text-center text-foreground">Verify the Market Yourself</h3>
               <p className="text-muted-foreground text-center mb-6">
-                Want to know what top-tier AI consulting typically costs? Copy this prompt into ChatGPT, Claude, or Grok and see for yourself:
+                Want to understand what this level of expertise commands in the current market? Copy this prompt into ChatGPT, Claude, or Grok and draw your own conclusions:
               </p>
               <div className="relative bg-background/80 border border-border rounded-lg p-6 font-mono text-sm text-foreground overflow-x-auto">
                 <button
                   onClick={() => {
-                    const promptText = `I'm evaluating a consulting proposal for architecting a proprietary AI infrastructure for a healthcare franchise platform. The consultant has:
+                    const promptText = `I'm evaluating a two-phase consulting engagement for a healthcare franchise platform. Here is the full scope:
 
-- 30+ years experience (Telecom → SaaS → AI)
-- Built production AI systems (Unison SaaS platform, Zorli consumer app)
-- Deep healthcare AI expertise (FDA compliance, clinical workflows, HIPAA security)
-- Experience with on-premise LLM deployment, custom EMR architecture, and cloud infrastructure
-
-The engagement scope includes:
-- On-premise LLM + cloud hybrid architecture design
-- Custom EMR/EHR system data models (independent from Epic/Cerner)
-- HIPAA compliance framework without vendor lock-in
-- Hardware specifications (GPU inference servers, encrypted storage)
+PHASE 1 — Architecture Engagement (Fixed-Fee, One-Time):
+The consultant will deliver a complete proprietary AI infrastructure blueprint for a longevity clinic franchise platform. Scope includes:
+- On-premise LLM + cloud hybrid architecture (NVIDIA GPU inference servers, fine-tuned medical LLMs)
+- Custom EMR/EHR system design, fully independent from Epic/Cerner
+- HIPAA compliance framework without vendor lock-in (encryption, RBAC, audit logging, BAA strategy)
+- Hardware specifications and procurement guide per franchise location
 - Lab API integration blueprints (HL7 FHIR for Quest/LabCorp)
-- Wearable data ingestion architecture (Apple HealthKit, Oura, Whoop)
-- Proprietary scoring algorithm design
-- Working prototypes (local LLM inference, lab integrations, scoring engine)
+- Wearable data ingestion architecture (Apple HealthKit, Oura, Whoop, Garmin)
+- Proprietary vitality scoring algorithm design (multi-domain weighted index)
+- Working prototypes: local LLM inference, lab API integration, scoring engine
 - Franchise replication guide for multi-city deployment
-- Security audit checklists and HIPAA documentation
+- Security audit checklists and HIPAA documentation package
 
-What is the typical market rate range for this level of expertise and scope in 2026? Please provide:
-1. Low-end (junior consultants or offshore)
-2. Mid-range (experienced consultants)
-3. High-end (top-tier experts with healthcare AI + infrastructure specialization)
-4. How does proprietary infrastructure architecture affect pricing vs. standard integrations?
-5. What premium does on-premise LLM deployment and HIPAA compliance expertise command?`;
+PHASE 2 — Managed Services Retainer (Monthly, Ongoing):
+Post-launch, the consultant provides a dedicated AI engineer (employed under their firm) plus principal-level oversight covering:
+- LLM monitoring, drift detection, and retraining
+- Lab API maintenance and updates
+- Scoring algorithm recalibration as outcomes data accumulates
+- Security audits and HIPAA compliance reviews
+- New franchise location onboarding
+- Feature development and system enhancements
+
+Consultant profile:
+- 30+ years experience (Telecom → SaaS → AI)
+- Production AI deployments (SaaS platforms, consumer apps)
+- Deep healthcare AI expertise (FDA compliance, clinical workflows, HIPAA security architecture)
+- On-premise LLM deployment and custom EMR architecture experience
+
+Please provide:
+1. Typical market rate for Phase 1 (fixed-fee architecture engagement) at low, mid, and high-end
+2. Typical monthly retainer range for Phase 2 (dedicated engineer + principal oversight) at low, mid, and high-end
+3. What premium does healthcare AI + HIPAA compliance expertise command over standard software consulting?
+4. How does proprietary infrastructure architecture (vs. off-the-shelf EMR integration) affect pricing?
+5. Is a dedicated-engineer-under-managed-services model standard practice, and what is the typical margin structure?`;
                     navigator.clipboard.writeText(promptText);
                     const btn = document.activeElement as HTMLButtonElement;
                     const originalText = btn.innerHTML;
@@ -357,35 +368,46 @@ What is the typical market rate range for this level of expertise and scope in 2
                   Copy Prompt
                 </button>
                 <pre className="whitespace-pre-wrap pr-28">
-{`I'm evaluating a consulting proposal for architecting a proprietary AI infrastructure for a healthcare franchise platform. The consultant has:
+{`I'm evaluating a two-phase consulting engagement for a healthcare franchise platform. Here is the full scope:
 
-- 30+ years experience (Telecom → SaaS → AI)
-- Built production AI systems (Unison SaaS platform, Zorli consumer app)
-- Deep healthcare AI expertise (FDA compliance, clinical workflows, HIPAA security)
-- Experience with on-premise LLM deployment, custom EMR architecture, and cloud infrastructure
-
-The engagement scope includes:
-- On-premise LLM + cloud hybrid architecture design
-- Custom EMR/EHR system data models (independent from Epic/Cerner)
-- HIPAA compliance framework without vendor lock-in
-- Hardware specifications (GPU inference servers, encrypted storage)
+PHASE 1 — Architecture Engagement (Fixed-Fee, One-Time):
+The consultant will deliver a complete proprietary AI infrastructure blueprint for a longevity clinic franchise platform. Scope includes:
+- On-premise LLM + cloud hybrid architecture (NVIDIA GPU inference servers, fine-tuned medical LLMs)
+- Custom EMR/EHR system design, fully independent from Epic/Cerner
+- HIPAA compliance framework without vendor lock-in (encryption, RBAC, audit logging, BAA strategy)
+- Hardware specifications and procurement guide per franchise location
 - Lab API integration blueprints (HL7 FHIR for Quest/LabCorp)
-- Wearable data ingestion architecture (Apple HealthKit, Oura, Whoop)
-- Proprietary scoring algorithm design
-- Working prototypes (local LLM inference, lab integrations, scoring engine)
+- Wearable data ingestion architecture (Apple HealthKit, Oura, Whoop, Garmin)
+- Proprietary vitality scoring algorithm design (multi-domain weighted index)
+- Working prototypes: local LLM inference, lab API integration, scoring engine
 - Franchise replication guide for multi-city deployment
-- Security audit checklists and HIPAA documentation
+- Security audit checklists and HIPAA documentation package
 
-What is the typical market rate range for this level of expertise and scope in 2026? Please provide:
-1. Low-end (junior consultants or offshore)
-2. Mid-range (experienced consultants)
-3. High-end (top-tier experts with healthcare AI + infrastructure specialization)
-4. How does proprietary infrastructure architecture affect pricing vs. standard integrations?
-5. What premium does on-premise LLM deployment and HIPAA compliance expertise command?`}
+PHASE 2 — Managed Services Retainer (Monthly, Ongoing):
+Post-launch, the consultant provides a dedicated AI engineer (employed under their firm) plus principal-level oversight covering:
+- LLM monitoring, drift detection, and retraining
+- Lab API maintenance and updates
+- Scoring algorithm recalibration as outcomes data accumulates
+- Security audits and HIPAA compliance reviews
+- New franchise location onboarding
+- Feature development and system enhancements
+
+Consultant profile:
+- 30+ years experience (Telecom → SaaS → AI)
+- Production AI deployments (SaaS platforms, consumer apps)
+- Deep healthcare AI expertise (FDA compliance, clinical workflows, HIPAA security architecture)
+- On-premise LLM deployment and custom EMR architecture experience
+
+Please provide:
+1. Typical market rate for Phase 1 (fixed-fee architecture engagement) at low, mid, and high-end
+2. Typical monthly retainer range for Phase 2 (dedicated engineer + principal oversight) at low, mid, and high-end
+3. What premium does healthcare AI + HIPAA compliance expertise command over standard software consulting?
+4. How does proprietary infrastructure architecture (vs. off-the-shelf EMR integration) affect pricing?
+5. Is a dedicated-engineer-under-managed-services model standard practice, and what is the typical margin structure?`}
                 </pre>
               </div>
               <p className="text-muted-foreground text-center mt-6 text-sm">
-                This is about transparency. You'll see the market range, and you'll understand where this proposal sits.
+                The market will tell you what this is worth. This proposal sits at the top of that range—because the work demands it.
               </p>
             </CardContent>
           </Card>

@@ -318,6 +318,43 @@ export default function InvestorOnePager() {
           </div>
         </motion.div>
 
+        {/* AI Engagement Structure */}
+        <motion.div {...fadeIn} className="mb-10">
+          <SectionLabel>AI Engagement — Kerzie AI (Two-Phase Structure)</SectionLabel>
+          <div className="grid md:grid-cols-2 gap-4">
+            {/* Phase 1 */}
+            <div className="p-5 rounded-xl bg-blue-500/10 border border-blue-500/20">
+              <div className="text-xs font-bold uppercase tracking-widest text-blue-400 mb-3">Phase 1 — Architecture Engagement</div>
+              <div className="text-sm font-bold text-white mb-1">Fixed-Fee · Paid Before Work Begins · IP Transfers to Vitalis</div>
+              <p className="text-xs text-white/50 leading-relaxed mb-4">
+                A time-bounded engagement delivering the complete proprietary AI infrastructure blueprint: on-premise LLM architecture, custom EMR design, HIPAA compliance framework, Vitalis Score algorithm, lab API integration specs, franchise replication guide, and working prototypes. This is the intellectual property event. All deliverables are owned by Vitalis upon completion.
+              </p>
+              <div className="text-xs text-white/30 italic">Non-contingent. No equity. No deferred compensation. The engagement is complete at Day 30 regardless of Vitalis's commercial outcome.</div>
+            </div>
+            {/* Phase 2 */}
+            <div className="p-5 rounded-xl bg-emerald-500/10 border border-emerald-500/20">
+              <div className="text-xs font-bold uppercase tracking-widest text-emerald-400 mb-3">Phase 2 — Managed Services Retainer</div>
+              <div className="text-sm font-bold text-white mb-1">Monthly · Fixed Operating Expense · Scales with Franchise</div>
+              <p className="text-xs text-white/50 leading-relaxed mb-4">
+                One dedicated AI engineer employed under Kerzie AI, assigned exclusively to Vitalis. Wade Kerzie serves as principal architect and orchestrator. Covers LLM monitoring, lab API maintenance, Vitalis Score recalibration, security audits, HIPAA compliance reviews, new franchise location onboarding, and feature development.
+              </p>
+              <div className="space-y-1">
+                {[
+                  { label: "Monthly Retainer", value: "$18,000–$22,000/mo" },
+                  { label: "Annual Cost", value: "$216K–$264K" },
+                  { label: "Initial Term", value: "12 months, renewable" },
+                  { label: "vs. In-House Senior AI Engineer (Dallas)", value: "~$280K fully-loaded" },
+                ].map((r) => (
+                  <div key={r.label} className="flex justify-between text-xs">
+                    <span className="text-white/40">{r.label}</span>
+                    <span className="font-semibold text-emerald-400">{r.value}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
         {/* Footer CTA */}
         <motion.div {...fadeIn}>
           <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">

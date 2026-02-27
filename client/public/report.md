@@ -170,9 +170,9 @@ This structure creates high client lifetime value (LTV) through recurring subscr
 
 ---
 
-## 5. AI Consulting Engagement Proposal
+## 5. AI Consulting Engagement: Two-Phase Commercial Structure
 
-To realize the vision of Vitalis as a scalable franchise platform, a robust and enterprise-grade AI architecture is essential. The following proposal outlines a strategic consulting engagement led by Wade Kerzie to architect the technical foundation for the Vitalis 30 Engine, Vitalis Score algorithm, and franchise operating system.
+The AI component of Vitalis is not a vendor relationship—it is a foundational investment in proprietary intellectual property. To protect both parties and ensure the work is treated with the seriousness it demands, the engagement is structured in two distinct phases with separate commercial terms. **Phase 1 is non-negotiable and must be paid in full before work begins.** There is no participation in the upside of Vitalis's success, no deferred compensation, and no equity arrangement. The know-how required to build this system has been earned over decades of production deployments—it is not speculative, and it will not be provided on an if-come basis.
 
 ### 5.1. Proprietary Infrastructure Strategy: On-Premise AI + Complete EMR Independence
 
@@ -234,7 +234,31 @@ Each new franchise location receives:
 
 Corporate aggregates **anonymized outcomes data** from all franchise locations to continuously refine the Vitalis Score algorithm, creating a compounding competitive advantage that strengthens with scale.
 
-### 5.2. Consultant Profile: Wade Kerzie
+### 5.2. Phase 2: Kerzie AI Managed Services Retainer
+
+Once the architecture is delivered and the system enters production, Vitalis requires ongoing professional management of its AI infrastructure. This is not optional maintenance—it is a clinical operations dependency. The LLM must be monitored for drift and hallucination. Lab API integrations require active maintenance as partner systems change. The Vitalis Score algorithm must be recalibrated as outcomes data accumulates. Security audits and HIPAA compliance reviews must occur on a documented schedule. New features—new biomarker integrations, new wearable APIs, new franchise location onboarding—require engineering capacity.
+
+Kerzie AI will provide this capacity through a **dedicated managed services contract**, structured as follows:
+
+| Component | Detail |
+| :--- | :--- |
+| **Dedicated Resource** | One full-time AI engineer, employed under Kerzie AI, assigned exclusively to Vitalis |
+| **Principal Oversight** | Wade Kerzie as principal architect and orchestrator, responsible for technical direction, quality assurance, and strategic roadmap |
+| **Contract Structure** | Monthly retainer, invoiced to Vitalis as a fixed operating expense |
+| **Recommended Rate** | $18,000–$22,000/month (inclusive of dedicated engineer compensation, Kerzie AI principal margin, and infrastructure monitoring tools) |
+| **Scope** | LLM monitoring and retraining, lab API maintenance, Vitalis Score recalibration, security audits, HIPAA compliance reviews, new franchise location onboarding, feature development |
+| **Term** | 12-month initial contract, renewable annually with 90-day notice |
+| **Escalation** | Annual CPI adjustment plus scope review |
+
+**Why this structure matters for Vitalis investors:** The managed services retainer is a predictable, fixed operating line item—not a variable cost that balloons with usage. At the recommended rate, Vitalis is purchasing a dedicated AI engineering team with principal-level oversight for less than the fully-loaded cost of a single senior in-house AI engineer in Dallas. The retainer also ensures continuity of institutional knowledge: the same team that built the system maintains it, eliminating the risk of knowledge loss during transitions.
+
+**Why this structure matters for Kerzie AI:** The retainer funds a dedicated employee under Kerzie AI management, with Wade Kerzie as the orchestrating principal. This is a professional services contract, not a revenue-share arrangement. Kerzie AI's margin as principal is built into the rate and is not contingent on Vitalis's commercial success.
+
+This retainer should be included as a fixed line item in the Vitalis operating budget from day one and reflected in all investor proformas.
+
+---
+
+### 5.3. Consultant Profile: Wade Kerzie
 
 Mr. Kerzie is an exceptionally qualified AI architect with over 30 years of experience in technology. His credentials place him in the top tier of AI consultants, making him an ideal partner for this ambitious project.
 
@@ -242,9 +266,9 @@ Mr. Kerzie is an exceptionally qualified AI architect with over 30 years of expe
 -   **Healthcare AI Expertise**: Deep knowledge of FDA regulatory compliance, clinical workflow integration, HIPAA security architecture, and health equity considerations in AI deployment.
 -   **Relevant Expertise**: His experience with multi-channel orchestration, cloud infrastructure (AWS), security architecture, and real-time AI makes him uniquely suited to design the sophisticated workflows required for the clinic.
 
-### 5.3. 30-Day Engagement Deliverables Framework
+### 5.4. Phase 1 Deliverables: Architecture Engagement
 
-The 30-day engagement is designed to produce a comprehensive strategic and technical blueprint for the Vitalis proprietary infrastructure. The deliverables are organized into a four-week sprint, culminating in a complete handoff package for the execution team.
+The architecture engagement is designed to produce a comprehensive strategic and technical blueprint for the Vitalis proprietary infrastructure. The deliverables are organized into a four-week sprint, culminating in a complete handoff package for the execution team. **This engagement is complete upon delivery of the handoff package. Ongoing work is governed by the Phase 2 managed services contract.**
 
 | Week | Focus | Key Deliverables |
 | :--- | :--- | :--- |
@@ -261,9 +285,13 @@ This structured approach ensures that all critical aspects of the proprietary in
 
 **Vitalis** represents a highly viable franchise platform with exceptional potential for scalable growth in the longevity sector. The Dallas flagship location benefits from a rapidly growing affluent senior population, significant wealth concentration, and clear gaps in the competitive landscape. The Vitalis 30 Engine, proprietary Vitalis Score, and three-division architecture create a defensible competitive moat and predictable recurring revenue model.
 
-We recommend moving forward with the strategic AI consulting engagement with Wade Kerzie. His expertise is critical to architecting the technical foundation for the Vitalis Operating System, ensuring the platform is built for multi-city replication from day one. This is a professional engagement with a seasoned architect who has shipped production AI systems—the foundation for successful deployment will not come cheap, but it will be engineered correctly for franchise scalability.
+We recommend moving forward with the two-phase Kerzie AI engagement as a foundational line item in the Vitalis capital plan.
 
-The engagement will deliver a comprehensive, execution-ready blueprint for the Vitalis technology stack, significantly de-risking the execution phase and positioning the platform for national expansion. By architecting a data-driven, AI-powered franchise system from the outset, Vitalis can establish itself as the category leader in measurable vitality optimization, delivering superior client outcomes and building a scalable, high-growth enterprise with strong brand equity and exit potential.
+**Phase 1 — Architecture Engagement** must be contracted and paid before any technology development begins. This is the intellectual property event: the HIPAA compliance framework, proprietary EMR design, Vitalis Score algorithm, LLM deployment architecture, and franchise replication playbook. These deliverables are owned by Vitalis upon completion. The engagement is fixed-fee, time-bounded, and non-contingent on Vitalis's commercial success. Investors should treat this as a capital expenditure, not an operating expense—it is the technical foundation upon which the entire franchise platform is built.
+
+**Phase 2 — Managed Services Retainer** should be contracted concurrently with Phase 1 and reflected in the Vitalis operating budget from the first month of operations. At $18,000–$22,000 per month, this retainer provides a dedicated AI engineer under Kerzie AI management, with Wade Kerzie as principal architect and orchestrator. This is less than the fully-loaded cost of a single senior AI engineer hired directly in Dallas, with the added benefit of principal-level oversight, institutional continuity, and no HR overhead. The retainer scales with Vitalis: as new franchise locations come online, the scope expands under the same contract structure.
+
+The combination of a clean Phase 1 IP transfer and a structured Phase 2 retainer protects Vitalis's technology investment, ensures continuity of the team that built the system, and provides investors with a clear, predictable technology cost structure from day one. By architecting a data-driven, AI-powered franchise system from the outset, Vitalis can establish itself as the category leader in measurable vitality optimization—delivering superior client outcomes and building a scalable, high-growth enterprise with strong brand equity and a defensible exit position.
 
 ---
 
