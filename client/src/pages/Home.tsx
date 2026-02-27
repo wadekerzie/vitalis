@@ -2,9 +2,10 @@ import AIRoadmap from "@/components/AIRoadmap";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { ArrowRight, BarChart3, Building2, DollarSign, TrendingUp, Users } from "lucide-react";
+import { ArrowRight, BarChart3, Building2, DollarSign, TrendingUp, Users, FileText } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Streamdown } from 'streamdown';
+import { Link } from "wouter";
 
 export default function Home() {
   const [reportContent, setReportContent] = useState<string>("");
@@ -198,14 +199,16 @@ export default function Home() {
                     >
                       Schedule Consultation
                     </Button>
-                    <Button 
-                      size="lg" 
-                      variant="outline"
-                      className="font-semibold bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
-                      onClick={() => window.print()}
-                    >
-                      Download PDF
-                    </Button>
+                    <Link href="/business-plan">
+                      <Button 
+                        size="lg" 
+                        variant="outline"
+                        className="font-semibold bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 flex items-center gap-2"
+                      >
+                        <FileText className="h-4 w-4" />
+                        Investor Business Plan
+                      </Button>
+                    </Link>
                   </div>
                 </div>
               </CardContent>
