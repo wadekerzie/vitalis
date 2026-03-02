@@ -325,11 +325,11 @@ export default function InvestorOnePager() {
             {/* Phase 1 */}
             <div className="p-5 rounded-xl bg-blue-500/10 border border-blue-500/20">
               <div className="text-xs font-bold uppercase tracking-widest text-blue-400 mb-3">Phase 0 — Strategic Architecture Engagement</div>
-              <div className="text-sm font-bold text-white mb-1">Fixed-Fee · Paid Before Work Begins · IP Transfers to Vitalis</div>
+              <div className="text-sm font-bold text-white mb-1">30-Day Engagement · Full IP Ownership Transferred to Vitalis</div>
               <p className="text-xs text-white/50 leading-relaxed mb-4">
                 A time-bounded engagement delivering the complete proprietary AI infrastructure blueprint: on-premise LLM architecture, custom EMR design, HIPAA compliance framework, Vitalis Score algorithm, lab API integration specs, franchise replication guide, and working prototypes. This is the intellectual property event. All deliverables are owned by Vitalis upon completion.
               </p>
-              <div className="text-xs text-white/30 italic">Non-contingent. No equity. No deferred compensation. The engagement is complete at Day 30 regardless of Vitalis's commercial outcome.</div>
+              <div className="text-xs text-white/30 italic">25% at signing · 50% at prototype delivery (Day 15) · 25% at final handoff (Day 30). Non-contingent. No equity. No deferred compensation.</div>
             </div>
             {/* Phase 2 */}
             <div className="p-5 rounded-xl bg-emerald-500/10 border border-emerald-500/20">

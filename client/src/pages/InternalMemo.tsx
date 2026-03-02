@@ -167,7 +167,8 @@ export default function InternalMemo() {
               <div>
                 <p className="text-zinc-500 text-xs uppercase tracking-widest mb-1">Phase 0 Engagement Fee</p>
                 <p className="text-white text-2xl font-bold">$110,000</p>
-                <p className="text-zinc-400 text-sm mt-1">Fixed fee · Paid before work begins · IP transfers to Vitalis at completion</p>
+                <p className="text-zinc-400 text-sm mt-1">30-day engagement · Full IP ownership transferred to Vitalis at completion</p>
+              <p className="text-zinc-500 text-xs mt-2">25% at signing · 50% at prototype delivery (Day 15) · 25% at final handoff (Day 30)</p>
               </div>
               <div className="text-right shrink-0">
                 <p className="text-zinc-500 text-xs uppercase tracking-widest mb-1">Duration</p>

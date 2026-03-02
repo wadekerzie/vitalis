@@ -288,12 +288,12 @@ Phase 0 is the gate through which all subsequent work passes. It is a **30-day, 
 | Component | Detail |
 | :--- | :--- |
 | **Duration** | 30 days |
-| **Fee** | $110,000 fixed fee |
-| **Payment Terms** | Paid in full before work begins |
-| **IP Transfer** | All deliverables are owned by Vitalis upon completion |
-| **Capital Classification** | Pre-capital expense — funded before the full investment raise is committed |
+| **Fee** | $110,000 |
+| **Payment Terms** | 25% at signing · 50% at prototype delivery (Day 15) · 25% at final handoff (Day 30) |
+| **IP Transfer** | Full IP ownership transferred to Vitalis at engagement completion |
+| **Capital Classification** | Pre-capital expense — contracted prior to the full investment raise |
 
-Phase 0 is appropriately treated as a **pre-capital validation expense**: Dr. Barnes funds this engagement to validate the full architecture before committing the balance of the capital raise. It de-risks the larger investment by ensuring the technology foundation is sound before construction begins.
+Phase 0 is appropriately treated as a **pre-capital validation expense**: this engagement validates the full architecture before the balance of the capital raise is committed. It de-risks the larger investment by ensuring the technology foundation is sound before construction begins.
 
 ### 5.3. Phase 1: Production Deployment Engagement
 
@@ -360,7 +360,7 @@ This structured approach ensures that all critical aspects of the proprietary in
 
 We recommend moving forward with the three-phase Kerzie AI engagement as a foundational component of the Vitalis capital plan.
 
-**Phase 0 — Strategic Architecture Engagement** ($110,000) should be funded immediately, before the full capital raise is committed. This is the intellectual property event: the HIPAA compliance framework, proprietary EMR design, Vitalis Score algorithm, LLM deployment architecture, physician dashboard specification, and franchise replication playbook. All deliverables are owned by Vitalis upon completion. The engagement is fixed-fee, time-bounded, and non-contingent on Vitalis's commercial success. Treat this as a pre-capital validation expense that de-risks the larger investment.
+**Phase 0 — Strategic Architecture Engagement** ($110,000) should be contracted before the full capital raise is committed. This is the intellectual property event: the HIPAA compliance framework, proprietary EMR design, Vitalis Score algorithm, LLM deployment architecture, physician dashboard specification, and franchise replication playbook. Full IP ownership transfers to Vitalis at engagement completion. The engagement is fixed-fee, 30-day, and non-contingent on Vitalis's commercial success. Payment terms: 25% at signing, 50% at prototype delivery, 25% at final handoff.
 
 **Phase 1 — Production Deployment** ($200,000) is a capital expenditure and should be included as an explicit line item in the Vitalis investment raise. This is the full build: on-premise LLM, custom EMR, scoring engine, physician dashboard, lab APIs, wearable ingestion, security audit, and go-live support. Milestone-gated payment structure protects both parties.
 
