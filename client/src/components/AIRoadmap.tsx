@@ -320,42 +320,47 @@ export default function AIRoadmap() {
               <div className="relative bg-background/80 border border-border rounded-lg p-6 font-mono text-sm text-foreground overflow-x-auto">
                 <button
                   onClick={() => {
-                    const promptText = `I'm evaluating a two-phase consulting engagement for a healthcare franchise platform. Here is the full scope:
+                    const promptText = `I'm evaluating a two-phase consulting engagement for a healthcare franchise platform called Vitalis — a subscription-first longevity clinic franchise system. Here is the full scope:
 
 PHASE 1 — Architecture Engagement (Fixed-Fee, One-Time):
-The consultant will deliver a complete proprietary AI infrastructure blueprint for a longevity clinic franchise platform. Scope includes:
-- On-premise LLM + cloud hybrid architecture (NVIDIA GPU inference servers, fine-tuned medical LLMs)
-- Custom EMR/EHR system design, fully independent from Epic/Cerner
-- HIPAA compliance framework without vendor lock-in (encryption, RBAC, audit logging, BAA strategy)
+The consultant will deliver a complete proprietary AI infrastructure blueprint. Scope includes:
+- On-premise LLM + cloud hybrid architecture (NVIDIA GPU inference servers, fine-tuned medical LLMs for clinical decision support)
+- Custom EMR/EHR system design, fully independent from Epic/Cerner/Athenahealth
+- HIPAA compliance framework without vendor lock-in (AES-256, RBAC, audit logging, BAA strategy)
 - Hardware specifications and procurement guide per franchise location
-- Lab API integration blueprints (HL7 FHIR for Quest/LabCorp)
-- Wearable data ingestion architecture (Apple HealthKit, Oura, Whoop, Garmin)
-- Proprietary vitality scoring algorithm design (multi-domain weighted index)
-- Working prototypes: local LLM inference, lab API integration, scoring engine
+- Lab API integration blueprints (HL7 FHIR for Quest/LabCorp) for automated biomarker ingestion
+- Wearable data ingestion architecture (Apple HealthKit, Oura, Whoop, Garmin) — 3-phase strategy: baseline trend scoring → predictive insights → proactive protocol nudges
+- Proprietary 4-pillar vitality scoring algorithm (Inflammation: hs-CRP/Ferritin/Homocysteine; Metabolic: HbA1c/Insulin/ApoB/TG:HDL; Nutrient: Vit D/B12/Magnesium; Hormone: gender-specific panels)
+- Physician dashboard design: triage view with risk-coded patient queue, biomarker trend graphs, AI-generated recommendation drafts with mandatory physician approval workflow (Approve/Modify/Escalate/Refer)
+- Working prototypes: local LLM inference, lab API integration, scoring engine, physician dashboard
 - Franchise replication guide for multi-city deployment
 - Security audit checklists and HIPAA documentation package
 
 PHASE 2 — Managed Services Retainer (Monthly, Ongoing):
 Post-launch, the consultant provides a dedicated AI engineer (employed under their firm) plus principal-level oversight covering:
-- LLM monitoring, drift detection, and retraining
-- Lab API maintenance and updates
-- Scoring algorithm recalibration as outcomes data accumulates
-- Security audits and HIPAA compliance reviews
-- New franchise location onboarding
-- Feature development and system enhancements
+- LLM monitoring, hallucination detection, drift detection, and retraining
+- Lab API maintenance as partner systems update
+- Vitalis Score algorithm recalibration as outcomes data accumulates across franchise locations
+- Wearable API maintenance (Apple HealthKit, Oura, Whoop, Garmin SDK updates)
+- Security audits and HIPAA compliance reviews on documented schedule
+- New franchise location onboarding (hardware setup, software deployment, staff training)
+- Physician dashboard enhancements and new feature development
+- Aggregated outcomes data analysis to strengthen competitive moat
 
 Consultant profile:
 - 30+ years experience (Telecom → SaaS → AI)
-- Production AI deployments (SaaS platforms, consumer apps)
+- Production AI deployments (SaaS platforms, consumer mobile apps generating revenue)
 - Deep healthcare AI expertise (FDA compliance, clinical workflows, HIPAA security architecture)
 - On-premise LLM deployment and custom EMR architecture experience
+- Franchise technology platform design experience
 
 Please provide:
-1. Typical market rate for Phase 1 (fixed-fee architecture engagement) at low, mid, and high-end
+1. Typical market rate for Phase 1 (fixed-fee architecture engagement of this scope) at low, mid, and high-end
 2. Typical monthly retainer range for Phase 2 (dedicated engineer + principal oversight) at low, mid, and high-end
-3. What premium does healthcare AI + HIPAA compliance expertise command over standard software consulting?
+3. What premium does healthcare AI + HIPAA compliance + clinical decision support expertise command over standard software consulting?
 4. How does proprietary infrastructure architecture (vs. off-the-shelf EMR integration) affect pricing?
-5. Is a dedicated-engineer-under-managed-services model standard practice, and what is the typical margin structure?`;
+5. How does the physician dashboard with mandatory human-in-the-loop approval affect scope complexity and pricing?
+6. Is a dedicated-engineer-under-managed-services model standard practice, and what is the typical margin structure for the principal?`;
                     navigator.clipboard.writeText(promptText);
                     const btn = document.activeElement as HTMLButtonElement;
                     const originalText = btn.innerHTML;
@@ -368,42 +373,47 @@ Please provide:
                   Copy Prompt
                 </button>
                 <pre className="whitespace-pre-wrap pr-28">
-{`I'm evaluating a two-phase consulting engagement for a healthcare franchise platform. Here is the full scope:
+{`I'm evaluating a two-phase consulting engagement for a healthcare franchise platform called Vitalis — a subscription-first longevity clinic franchise system. Here is the full scope:
 
 PHASE 1 — Architecture Engagement (Fixed-Fee, One-Time):
-The consultant will deliver a complete proprietary AI infrastructure blueprint for a longevity clinic franchise platform. Scope includes:
-- On-premise LLM + cloud hybrid architecture (NVIDIA GPU inference servers, fine-tuned medical LLMs)
-- Custom EMR/EHR system design, fully independent from Epic/Cerner
-- HIPAA compliance framework without vendor lock-in (encryption, RBAC, audit logging, BAA strategy)
+The consultant will deliver a complete proprietary AI infrastructure blueprint. Scope includes:
+- On-premise LLM + cloud hybrid architecture (NVIDIA GPU inference servers, fine-tuned medical LLMs for clinical decision support)
+- Custom EMR/EHR system design, fully independent from Epic/Cerner/Athenahealth
+- HIPAA compliance framework without vendor lock-in (AES-256, RBAC, audit logging, BAA strategy)
 - Hardware specifications and procurement guide per franchise location
-- Lab API integration blueprints (HL7 FHIR for Quest/LabCorp)
-- Wearable data ingestion architecture (Apple HealthKit, Oura, Whoop, Garmin)
-- Proprietary vitality scoring algorithm design (multi-domain weighted index)
-- Working prototypes: local LLM inference, lab API integration, scoring engine
+- Lab API integration blueprints (HL7 FHIR for Quest/LabCorp) for automated biomarker ingestion
+- Wearable data ingestion architecture (Apple HealthKit, Oura, Whoop, Garmin) — 3-phase strategy: baseline trend scoring → predictive insights → proactive protocol nudges
+- Proprietary 4-pillar vitality scoring algorithm (Inflammation: hs-CRP/Ferritin/Homocysteine; Metabolic: HbA1c/Insulin/ApoB/TG:HDL; Nutrient: Vit D/B12/Magnesium; Hormone: gender-specific panels)
+- Physician dashboard design: triage view with risk-coded patient queue, biomarker trend graphs, AI-generated recommendation drafts with mandatory physician approval workflow (Approve/Modify/Escalate/Refer)
+- Working prototypes: local LLM inference, lab API integration, scoring engine, physician dashboard
 - Franchise replication guide for multi-city deployment
 - Security audit checklists and HIPAA documentation package
 
 PHASE 2 — Managed Services Retainer (Monthly, Ongoing):
 Post-launch, the consultant provides a dedicated AI engineer (employed under their firm) plus principal-level oversight covering:
-- LLM monitoring, drift detection, and retraining
-- Lab API maintenance and updates
-- Scoring algorithm recalibration as outcomes data accumulates
-- Security audits and HIPAA compliance reviews
-- New franchise location onboarding
-- Feature development and system enhancements
+- LLM monitoring, hallucination detection, drift detection, and retraining
+- Lab API maintenance as partner systems update
+- Vitalis Score algorithm recalibration as outcomes data accumulates across franchise locations
+- Wearable API maintenance (Apple HealthKit, Oura, Whoop, Garmin SDK updates)
+- Security audits and HIPAA compliance reviews on documented schedule
+- New franchise location onboarding (hardware setup, software deployment, staff training)
+- Physician dashboard enhancements and new feature development
+- Aggregated outcomes data analysis to strengthen competitive moat
 
 Consultant profile:
 - 30+ years experience (Telecom → SaaS → AI)
-- Production AI deployments (SaaS platforms, consumer apps)
+- Production AI deployments (SaaS platforms, consumer mobile apps generating revenue)
 - Deep healthcare AI expertise (FDA compliance, clinical workflows, HIPAA security architecture)
 - On-premise LLM deployment and custom EMR architecture experience
+- Franchise technology platform design experience
 
 Please provide:
-1. Typical market rate for Phase 1 (fixed-fee architecture engagement) at low, mid, and high-end
+1. Typical market rate for Phase 1 (fixed-fee architecture engagement of this scope) at low, mid, and high-end
 2. Typical monthly retainer range for Phase 2 (dedicated engineer + principal oversight) at low, mid, and high-end
-3. What premium does healthcare AI + HIPAA compliance expertise command over standard software consulting?
+3. What premium does healthcare AI + HIPAA compliance + clinical decision support expertise command over standard software consulting?
 4. How does proprietary infrastructure architecture (vs. off-the-shelf EMR integration) affect pricing?
-5. Is a dedicated-engineer-under-managed-services model standard practice, and what is the typical margin structure?`}
+5. How does the physician dashboard with mandatory human-in-the-loop approval affect scope complexity and pricing?
+6. Is a dedicated-engineer-under-managed-services model standard practice, and what is the typical margin structure for the principal?`}
                 </pre>
               </div>
               <p className="text-muted-foreground text-center mt-6 text-sm">

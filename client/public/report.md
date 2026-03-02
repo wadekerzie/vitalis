@@ -83,11 +83,15 @@ The market also includes numerous providers focused primarily on IV therapy and 
 
 Our analysis of the competitive landscape reveals several key strategic opportunities for Joann Grisaffi's proposed clinic:
 
-1.  **Lack of a Dominant, Gender-Neutral Player**: Fountain Life is a strong competitor but is heavily focused on diagnostics. Sanctum is highly specialized in women's health. This leaves a significant opening for a comprehensive, gender-neutral longevity clinic that caters to both men and women seeking a long-term relationship with a trusted health partner.
+1. **Lack of a Dominant, Gender-Neutral Player**: Fountain Life is a strong competitor but is heavily focused on diagnostics. Sanctum is highly specialized in women’s health. This leaves a significant opening for a comprehensive, gender-neutral longevity clinic that caters to both men and women seeking a long-term relationship with a trusted health partner.
 
-2.  **Absence of Measurable, Data-Driven Feedback**: No competitor in the Dallas market is explicitly marketing a tool similar to the proposed **Optimization Scorecard**. This concept represents a powerful differentiator, appealing to a data-savvy clientele that desires quantifiable proof of progress and a clear return on their investment.
+2. **Absence of Measurable, Data-Driven Feedback**: No competitor in the Dallas market delivers a proprietary vitality index like the **Vitalis Score**. Most IV clinics sell hydration. Most longevity clinics lack scalability. Most wearable platforms lack medical integration. Vitalis unifies monthly micro-biomarker testing, wearable performance data, AI-supported protocol refinement, and physician oversight into a single subscription system. The result is a powerful differentiator for a data-savvy clientele that demands quantifiable proof of progress.
 
-3.  **Untapped Surgical Recovery Niche**: While several services offer post-operative nursing and companion care, none provide a clinical-grade, data-driven approach to pre- and post-operative optimization. This presents a unique opportunity to establish referral partnerships with the thriving Dallas plastic and elective surgery market.
+3. **Untapped Surgical Recovery Niche**: While several services offer post-operative nursing and companion care, none provide a clinical-grade, biomarker-driven approach to pre- and post-operative optimization. This presents a unique opportunity to establish referral partnerships with the thriving Dallas plastic and elective surgery market.
+
+4. **Online-Only Competitors Lack Clinical Depth**: Emerging platforms in the longevity and HRT space (online-only concierge services, direct-to-consumer hormone optimization) operate without baseline biomarker testing or ongoing clinical oversight. Vitalis delivers what these platforms cannot: in-person physician-reviewed protocols, real-time lab integration, and a structured optimization roadmap — not a one-time prescription.
+
+> *"Most wellness clinics treat symptoms. Vitalis tracks your life force. We built a system — not a menu."* — Joann Grisaffi, Vitalis Founder
 
 ---
 
@@ -101,7 +105,7 @@ At the core of Vitalis is a calibrated 30-day optimization cycle that drives eng
 
 1. **Capillary Micro-Biomarker Panel**: At-home finger-prick kits measure lipids, HbA1c, hs-CRP, thyroid markers, Vitamin D, and select hormone panels. Samples are processed by partner labs and integrate via API directly into the Vitalis app.
 
-2. **Wearable Data Integration**: HRV, sleep quality, resting heart rate, activity levels, and temperature trends are continuously monitored and correlated with biomarker changes.
+2. **Wearable Data Integration**: HRV, sleep quality, resting heart rate, activity levels, and temperature trends are continuously monitored across Apple Watch, Oura Ring, Whoop, and Garmin. Vitalis ingests this data through a structured three-phase wearable strategy: **Phase 1** establishes baseline trend scoring (HRV, resting heart rate, sleep architecture) with physician oversight; **Phase 2** generates predictive insights ("Your HRV decline over the past 10 days correlates with elevated inflammatory markers — expect a CRP spike at next draw"); **Phase 3** delivers proactive protocol nudges ("Schedule your recovery IV — HRV is down 15% and your last CRP was elevated"). Over time, the correlation data accumulated across all Vitalis clients — HRV trends vs. inflammation response, sleep patterns vs. CRP reduction, GLP-1 protocols vs. HRV preservation — becomes a proprietary outcomes dataset that strengthens the Vitalis Score algorithm and deepens the franchise competitive moat with every new member enrolled.
 
 3. **AI-Supported Protocol Recalibration**: Machine learning algorithms analyze trends and suggest protocol adjustments (supplementation, peptides, hormone timing, hydration targets, performance goals).
 
@@ -115,15 +119,20 @@ For deeper accuracy, Vitalis layers quarterly or biannual venous draws (CBC, CMP
 
 ### 4.2. The Vitalis Score: Proprietary Vitality Index
 
-The **Vitalis Score** is a proprietary 0-100 vitality index derived from five weighted domains:
+The **Vitalis Score** is a proprietary 0-100 vitality index derived from four clinically validated pillars, each mapped to specific biomarkers that drive measurable improvement:
 
-- **Metabolic Efficiency**: Glucose regulation, insulin sensitivity, lipid profiles
-- **Inflammatory Load**: hs-CRP, cytokine markers, oxidative stress indicators
-- **Nutrient Reserves**: Vitamin D, B12, magnesium, iron, essential micronutrients
-- **Recovery Capacity**: HRV trends, sleep architecture, resting heart rate variability
-- **Hormonal Stability**: Testosterone, estrogen, thyroid function, cortisol patterns
+| Pillar | Core Biomarkers | Clinical Purpose |
+| :--- | :--- | :--- |
+| **Inflammation** | hs-CRP, Ferritin, Homocysteine | Primary drivers of aging, recovery impairment, and cardiovascular risk. hs-CRP tracks improvement within 30–60 days. |
+| **Metabolic** | HbA1c, Fasting Glucose, Fasting Insulin, TG/HDL Ratio, ApoB | Define metabolic vitality. Fasting insulin detects insulin resistance years before HbA1c flags a problem. ApoB preferred over LDL for cardiovascular particle risk. |
+| **Nutrient** | Vitamin D (25-OH), B12, Folate, Magnesium (RBC preferred) | Justify IV protocols with clinical precision. Deficiencies in these four markers directly impair immune function, energy, methylation, and stress resilience. |
+| **Hormone** | Estradiol, Progesterone, Total & Free Testosterone, SHBG, DHEA-S, TSH, Free T3/T4 (women); Total & Free Testosterone, SHBG, Estradiol (sensitive), Hematocrit, PSA (men) | Gender-specific panels with mandatory safety markers. Thyroid baseline included for all HRT candidates. |
 
-Clients do not purchase IV therapy—they increase their Vitalis Score. The app delivers domain scores, personalized action plans, and automated reminders for clinic visits, peptides, hormone timing, supplementation, hydration, and performance targets. This shifts the value proposition from transactional services to measurable vitality improvement.
+For deeper accuracy, Vitalis layers quarterly or biannual venous draws (CBC, CMP, ferritin, iron studies, comprehensive hormones). Clients on hormone optimization follow a structured **90-day Hormone Restoration Roadmap** with monthly trend monitoring, symptom scoring, and wearable data correlation.
+
+Clients do not purchase IV therapy—they increase their Vitalis Score. The app delivers pillar scores, personalized action plans, and automated reminders for clinic visits, peptides, hormone timing, supplementation, hydration, and performance targets. This shifts the value proposition from transactional services to measurable vitality improvement.
+
+> *"We focus on inflammation, metabolism, nutrient sufficiency, and hormone balance. Everything we do supports one of those four systems."* — Joann Grisaffi, Vitalis Founder
 
 ### 4.3. Three-Division Scalability
 
@@ -150,7 +159,26 @@ Every Vitalis franchise location operates on a standardized **Vitalis Operating 
 
 Corporate aggregates anonymized outcomes across all franchise locations to refine protocols, strengthen the competitive moat, and demonstrate measurable efficacy to investors and regulatory bodies.
 
-### 4.5. Revenue Structure
+### 4.5. Confirmed Service Offering
+
+Vitalis delivers ten confirmed service lines, each clinically structured, biomarker-driven, and physician-reviewed. The target demographic is adults aged 35–65 — high-performing professionals and health-conscious individuals seeking proactive optimization, not reactive treatment.
+
+| # | Service | Description |
+| :--- | :--- | :--- |
+| 1 | **Vitalis 30 Monthly Biometric Optimization Program** | 90-day roadmap to optimize health through structured monthly biomarker cycles, wearable integration, and AI-supported protocol refinement |
+| 2 | **Precision IV Therapy** | NAD+, Glutathione, and targeted nutrient protocols — physician-approved and biomarker-justified, not generic hydration |
+| 3 | **Longevity & Metabolic Optimization Programs** | Structured programs targeting inflammation reduction, metabolic efficiency, and extended healthspan |
+| 4 | **HRT & Weight Loss / GLP-1** | Hormone restoration and GLP-1 weight optimization with mandatory safety panels and 90-day structured roadmaps |
+| 5 | **Pre- & Post-Surgical Optimization & Recovery Support** | Biomarker-driven readiness assessments and recovery tracking for elective and plastic surgery patients |
+| 6 | **Advanced Biomarker Testing & Wearable Data Integration** | Comprehensive lab panels integrated with HRV, sleep, and activity data from Apple Watch, Oura, Whoop, and Garmin |
+| 7 | **Peptide Therapy** | BPC-157, Thymosin Beta-4, CJC-1295, and emerging protocols — physician-governed and outcomes-tracked |
+| 8 | **Inflammation & Cardiometabolic Risk Reduction Programs** | Targeted protocols addressing hs-CRP, ApoB, TG/HDL, and homocysteine with measurable 30-day improvement cycles |
+| 9 | **Concierge Vitality Memberships** | Subscription-based access to the full Vitalis platform with personalized protocols, priority scheduling, and continuous monitoring |
+| 10 | **Push Notification Protocol Optimization** | AI-generated nudges and reminders calibrated to wearable data and biomarker trends (e.g., "Schedule recovery IV — HRV down 15% + CRP elevated") |
+
+> *"We don't offer generic wellness. We deliver data-backed personalization, continuous monitoring, AI-supported physician-reviewed protocol adjustments, luxury-level care in a medically disciplined environment, and a structured roadmap — not one-off treatments. Clients don't leave wondering if something worked. They see their Vitalis Score improve."* — Joann Grisaffi, Vitalis Founder
+
+### 4.6. Revenue Structure
 
 Vitalis operates on a dual-revenue model designed for predictable cash flow and high lifetime value:
 
@@ -209,6 +237,19 @@ Vitalis will deploy a **hybrid architecture** combining on-premise AI inference 
 - **Vitalis Score Engine**: Proprietary algorithm calculating 0-100 vitality index from weighted domain scores.
 - **HIPAA Controls**: HashiCorp Vault (secrets management), Keycloak (authentication/RBAC), ELK stack (audit logging).
 - **LLM Runtime**: vLLM or TensorRT-LLM for low-latency inference with role-based access controls.
+
+#### Physician Dashboard Design
+
+The Vitalis physician dashboard is designed around a **mandatory human-in-the-loop approval model** — AI generates, physician decides. No protocol is implemented without physician action.
+
+**Triage Screen (Top-Level View):** When a physician logs in, they see patients sorted by risk level with color-coded status indicators: 🔴 Immediate review, 🟡 Needs adjustment, 🟢 Stable. The screen surfaces Vitalis Score trends, red flag alerts, pending protocol approvals, and lab results requiring review — enabling rapid clinical triage across a full patient panel.
+
+**Patient Detail View:** Clicking into any patient reveals three sections:
+- **Snapshot Panel**: Current Vitalis Score, change from last month, active track (Longevity / Recovery / HRT), and active protocols.
+- **Biomarker Trends**: Clean visual graphs for hs-CRP (3–6 month trend), HbA1c, TG/HDL, Vitamin D, hormones (if applicable), and HRV 30-day rolling average. Designed to be visual, not cluttered.
+- **AI-Supported Recommendation Draft**: The LLM generates a protocol adjustment recommendation based on current biomarker and wearable data (e.g., *"Based on elevated hs-CRP and declining HRV: consider increasing glutathione cadence, review sleep compliance, recheck CRP in 30 days"*). The physician then selects: **Approve / Modify / Escalate / Refer**. Physician must click. No AI recommendation is implemented without explicit physician action.
+
+This architecture satisfies HIPAA, state medical board requirements, and malpractice standards while preserving the speed and intelligence of AI-assisted clinical decision support.
 
 #### HIPAA Compliance Without Vendor Lock-In
 
